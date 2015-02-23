@@ -71,7 +71,7 @@ header {
   padding: 0 1em;
   position: relative;
   padding-top: 1em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1.2em;
   background-color: $grey;
 
   /* background: url("../images/header-home.jpg") no-repeat center center fixed;
@@ -199,6 +199,7 @@ padding: 1em;
   bottom: 0;
   right: -100%;
   //min-height: 600px;
+  background-color: $grey;
 }
 
 /////////////////////// HOME PAGE STYLING
@@ -661,7 +662,7 @@ footer p {
     }//canvas
 
     &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-100%);
+      transform: translateX(-100%); /*50%???*/
     }
 
     &[data-state="slide-open"]{
@@ -673,12 +674,13 @@ footer p {
 
 .slide-menu{
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 100%;
   top: 0;
   bottom: 0;
   right: -100%;
   min-height: 600px;
+  background-color: $grey;
 }
 
 ////////  BLOG *PAGE*
