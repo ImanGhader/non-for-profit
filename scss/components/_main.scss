@@ -118,7 +118,7 @@ body{
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
-  right: 17px; top: 19px;
+  right: 17px; top: 23px;
   z-index: 2;
   
   /* non-critical apperance styles */
@@ -160,7 +160,8 @@ padding: 1em;
 
 header{
   padding: 0.5em;
-  margin-top: 0.75em;
+  padding-top: 1.25em;
+  //margin-top: 0.75em;
   vertical-align: center;
   background-color: white;
   position: fixed;
