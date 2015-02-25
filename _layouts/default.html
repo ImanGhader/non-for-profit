@@ -16,6 +16,7 @@
 
 <body class="noscript">
 
+<!--
 	<div class="site-wrapper" data-state="slide-closed">
 	    <div class="sliding-canvas">
 
@@ -40,12 +41,37 @@
 		          </ul>
 		        </nav>
 
-	      </header>
+	      </header> 
 
-	    </div>  <!-- /sliding-canvas -->
-	</div>  <!-- /site-wrapper -->
+	    </div> 
+	</div> -->
+
+<ul class="navigation">
+    <li class="nav-item"><a href="{{site.baseurl}}/index">Home</a></li>
+    <li class="nav-item"><a href="{{site.baseurl}}/about">About</a></li>
+    <li class="nav-item"><a href="{{site.baseurl}}/donate">Donate</a></li>
+    <li class="nav-item"><a href="{{site.baseurl}}/blog">Blog</a></li>
+    <li class="nav-item"><a href="{{site.baseurl}}/contact">Contact</a></li>
+    <li class="nav-item"><a href="#">Login</a></li>
+</ul>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+
+<label for="nav-trigger"></label>
+
+<div class="site-wrap">
+
+<header>
+
+	<a href="{{site.baseurl}}/index.html"><h1><i class="icon-logo-solid"></i><span class="fat">READ</span> Global</h1></a>
+
+	<a class="btn-donate" href="#">Donate</a>
+
+</header>
 
 {{content}}
+
+</div> <!--closes site wrap-->
 
 	<footer>
 

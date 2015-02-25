@@ -60,31 +60,93 @@ body:after{
 body{
   font-family: sans-serif;
   @include zero;
-  // Hides close button if there is no js
-  &.noscript .close-btn,
-  &.noscript .toggle-btn{
-    display: none;
-  }
 }
 
-header {
-  padding: 0 1em;
+/* NAVIGATION STYLING */
+
+.navigation {
+  /* critical sizing and position styles */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  right: 10px;
+  z-index: 0;
+  list-style: none;
+  background: $teal;
+  text-align: right;
+}
+
+/* Navigation List items */
+
+.nav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1em;
+  padding-right: 1.5em;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: $coral;
+  }
+
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white;
   position: relative;
-  padding-top: 1em;
-  padding-bottom: 1.2em;
-  background-color: $grey;
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  z-index: 1;
+}
 
-  /* background: url("../images/header-home.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
 
-  border-left: solid 10px $light-teal;
-  border-right: solid 10px $light-teal;
-  border-top: solid 10px $light-teal;
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  right: 17px; top: 19px;
+  z-index: 2;
+  
+  /* non-critical apperance styles */
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  //background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+  background: url("../images/menu-open.svg");
+  background-size: contain;
+}
 
-  z-index: -99;
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap {
+  transition: right 0.2s;
+}
+
+.nav-trigger:checked + label {
+  right: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+  right: 200px;
+  //box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+body {
+    /* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
 }
 
 main{
@@ -96,117 +158,34 @@ padding: 1em;
 
 }
 
+header{
+  padding: 0.5em;
+  margin-top: 0.75em;
+  vertical-align: center;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  border-bottom: 3px solid $teal;
+}
+
 .fat{
   font-weight: 700;
-}
-
-.toggle-btn{
-  //position: absolute;
-  float: right;
-  margin-right: 0.5em;
-  margin-top: 0.5em;
-}
-
-.close-btn{
-  float: right;
-  clear: both;
-  margin-top: 2em;
-
 }
 
 .btn-donate{
   @include button($light-teal, $coral, $light-teal);
   float: right;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 700;
-  margin-right: 0.5em;
-  padding: 0.35em;
+  margin-right: 3em;
+  padding: 0.2em;
+  vertical-align: center;
 }
 
-.navigation ul{
-  @include zero;
-  clear: both;
-  li{
-    list-style-type: none;
-    display: block;
-    padding: 0.5em 0.75em;
-    text-align: center;
-    position: relative;
-    a{
-      text-decoration: none;
-      font-family:  $body;
-      color: $light-teal;
-      font-weight: 300;
-      font-size: 1.5em;
-      &:hover{
-        color: $dark-teal;
-        font-weight: 700;
-      }
-    }
-    }//li
-}//navigation
-
-.toggle-btn,
-.close-btn{
-  color: $light-teal;
-  height:40px;
-  width: 40px;
-  span{
-    @include hide-text;
-  }
-  i{
-    padding: 0.5em;
-    &:hover{
-      color: $dark-teal;
-    }
-  }
-  &:hover{
-    color: $dark-teal;
-  }
-}
-
-
-.site-wrapper{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  z-index: 99;
-
-    .sliding-canvas{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform: translateX(0);
-      @include ease(all, 200ms, ease-in);
-    }//canvas
-
-    &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-100%);
-    }
-
-    &[data-state="slide-open"]{
-      //allows nav to have a scroll bar when open
-      overflow: visible;
-    }
-
-  }//sitewrapper
-
-.slide-menu{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  right: -100%;
-  //min-height: 600px;
-  background-color: $grey;
-}
 
 /////////////////////// HOME PAGE STYLING
 
 .home-banner{
-	//padding: 1em;
-	padding-bottom: 20em;
 
 background: url("../images/header-home.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -219,8 +198,9 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .header-text{
-  padding-top: 1.5em;
+  padding-top: 5em;
   padding-left: 1.5em;
+  margin-bottom: 15em;
 }
 
 .counter {
@@ -643,41 +623,7 @@ footer p {
   font-size: 1.2em;
 }
 
-.site-wrapper{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  z-index: 99;
 
-    .sliding-canvas{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform: translateX(0);
-      @include ease(all, 200ms, ease-in);
-    }//canvas
-
-    &[data-state="slide-open"] .sliding-canvas{
-      transform: translateX(-100%); /*50%???*/
-    }
-
-    &[data-state="slide-open"]{
-      //allows nav to have a scroll bar when open
-      overflow: visible;
-    }
-
-  }//sitewrapper
-
-.slide-menu{
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  top: 0;
-  bottom: 0;
-  right: -100%;
-  min-height: 600px;
-  background-color: $grey;
-}
 
 ////////  BLOG *PAGE*
 
