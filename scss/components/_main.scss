@@ -322,7 +322,6 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
 .blog-image-large{
   width: 100%;
-  border: solid 3px $teal;
   position: relative;
   text-align: center;
   margin: 0 auto;
@@ -346,10 +345,16 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 .sidebar{
   background-color: $light-teal;
   width: 100%;
+  margin-top: 4em;
 }
 
 .blog-main{
   width: 100%;
+  margin-top: 3em;
+}
+
+.kailashi{
+  margin-top: 3em;
 }
 
 .empower{
@@ -358,12 +363,12 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   position: relative;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 2em;
+  margin-bottom: 6em;
   display: block;
 }
 
 .btn-donate-white{
-  @include button(white, $dark-teal, white);
+  @include button(white, $coral, white);
   font-size: 1em;
   font-weight: 700;
   margin-right: 0.5em;
@@ -586,30 +591,6 @@ footer p {
     margin-left: 2em;
     font-size: .6em;
     }
-
-///////////////////   BLOG STYLES
-
-.blog-large{
-  border: solid 1px $grey;
-  width: 100%;
-}
-
-.blog-image-large{
-  width: 100%;
-  padding: 0.5em;
-  border: solid 1px $teal;
-}
-
-.blog-small{
-  border: solid 1px $grey;
-  width: 100%;
-}
-
-.blog-image-small{
-  width: 100%;
-  padding: 0.5em;
-  border: solid 1px $teal;
-}
 
 
 ////////// MEDIA QUERY MEDIUM
