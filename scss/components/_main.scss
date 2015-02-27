@@ -129,6 +129,11 @@ label[for="nav-trigger"] {
   background: url("../images/toggle.svg");
   background-size: cover;
   padding: 0.25em;
+
+  &:hover
+  &:active{
+    background: url("../images/toggle-hover.svg");
+  }
 }
 
 /* Make the Magic Happen */
