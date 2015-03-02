@@ -252,14 +252,19 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   text-align: center;
   font-family: $fancy;
   padding-top:2em;
+  margin-bottom: 1em;
   position:relative;
   color: $teal;
 
 }
 
+.arrow {
+  padding-top: 18em;
+}
+
 .about-banner{
   padding: 1em;
-  padding-bottom: 20em;
+  padding-bottom: 50%;
 
 background: url("../images/slider-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -269,6 +274,11 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 
   margin-bottom: 1em;
   display: block;
+}
+
+.wrapper-about {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #container {
@@ -297,6 +307,7 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   @include transition (all, 0.3s, ease-in-out);
   background-color:rgba(0,0,0,0.2);
   @include font-regular;
+
 }
 
 #accordion input:checked + label {
@@ -732,8 +743,8 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   font-family: $fancy;
   text-align: center;
   margin-left: 40%;
-  padding-bottom: 5em;
-  line-height: 5em;
+  //padding-bottom: 5em;
+  line-height: 2.5em;
 }
 
 .contact-h2 {
