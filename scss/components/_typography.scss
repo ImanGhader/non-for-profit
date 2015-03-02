@@ -226,6 +226,14 @@ sub {
   padding: 1.5rem;
 }
 
+.island-max {
+  padding: 1.5rem;
+  max-width: 40em;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
 .island-double, .island-2 {
   padding: 3.0000rem;
 }
