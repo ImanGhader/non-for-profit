@@ -28,6 +28,7 @@
 
 @mixin button($border-color, $hover-color, $text-color){
   border: solid 3px $border-color;
+  border-radius: 10px;
   color: $text-color;
   display: inline-block;
   text-decoration: none;
