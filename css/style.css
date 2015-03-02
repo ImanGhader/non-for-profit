@@ -2500,12 +2500,12 @@ header {
 
 /* line 261, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .arrow {
-  padding-top: 18em; }
+  top: -3em; }
 
 /* line 265, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .about-banner {
   padding: 1em;
-  padding-bottom: 50%;
+  padding-top: 50%;
   background: url("../images/slider-3.jpg") no-repeat center center fixed;
   background-size: cover;
   margin-bottom: 1em;
