@@ -253,7 +253,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   font-family: $fancy;
   padding-top:2em;
   position:relative;
-  //margin-left: 24rem;
+  color: $teal;
 
 }
 
@@ -410,14 +410,15 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 ///about styles continued
 
 .programs {
-  @include font-regular;
-  text-transform: uppercase;
-  margin-bottom: .25em;
+  font-family: $fancy;
+  color: $teal;
+  margin-bottom: 1em;
+  text-align: center;
 }
 
 .accordion-titles {
   @include font-skinny;
-  color: $dark-teal;
+  color: #000;
   font-size: 1em;
   text-shadow: none;
   line-height: 1.5;
