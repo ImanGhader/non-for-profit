@@ -2468,7 +2468,7 @@ header {
   padding-top: 5em;
   padding-left: 1.5em;
   margin-bottom: 15em;
-  max-width: 14em; }
+  max-width: 13em; }
 
 /* line 220, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .icon-down-arrow {
@@ -2477,7 +2477,7 @@ header {
   text-align: center;
   position: relative;
   display: block;
-  padding: 1em;
+  bottom: 0.75em;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5); }
 
 /* line 230, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
