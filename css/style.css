@@ -3083,3 +3083,16 @@ input {
   .donate-icon {
     margin-left: 33%; }
  }
+
+/* line 943, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.thanks-banner {
+  background-image: url("../images/slider-2.jpg");
+  background-size: cover;
+  padding-top: 50%; }
+
+/* line 949, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.thanks-banner-h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Pacifico', serif;
+  margin-left: 40%; }
