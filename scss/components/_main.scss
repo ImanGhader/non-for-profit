@@ -822,7 +822,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   padding: 1em;
   padding-bottom: 45%;
 
-background: url("../images/header-donate.jpg") no-repeat center center fixed;
+  background: url("../images/header-donate.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -833,7 +833,7 @@ background: url("../images/header-donate.jpg") no-repeat center center fixed;
 }
 
 .teal-background {
-  background-color: $light-teal;
+  background-color: $dark-teal;
   width: 100%;
 }
 
