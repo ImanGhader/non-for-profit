@@ -221,16 +221,16 @@ header{
   //margin:50px 70px;
   -webkit-transition:margin 100ms;
   -moz-transition:margin 100ms;
-  transition:margin 100ms ; 
+  transition:margin 100ms ;
   //&:active{
       //margin: 53px 70px;
     //}
    &:hover{
       color: $coral;
-    } 
+    }
 }
 
- /* 
+ /*
 form{
   display:block;
   margin:20px;
@@ -255,15 +255,15 @@ form{
   line-height: 45px;
   color: $light-teal;
   display: inline-block;
-  &:hover { 
+  &:hover {
     color: $teal;
   }
 }
 
-#modal{ 
+#modal{
   position:absolute;
   background-color:#F5F5F6;
-  top:50%; 
+  top:50%;
   left:50%;
   z-index:101;
   border-radius:3px;
@@ -616,7 +616,7 @@ ul {
   float: left;
   height: 40px;
   width: 40px;
-  padding-top: .8em;
+  padding-top: .7em;
   padding-right: .2em;
   text-align: center;
   margin-left: 1rem;
