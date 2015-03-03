@@ -206,7 +206,14 @@ header{
 }
 
 ///////// LOG IN
+.sign-in-btn{
+  @include button($light-teal, $coral, $light-teal);
+  background-color: white;
+  float: right;
+  font-size: 0.9em;
+  padding: 0.25em;
 
+}
 
 .sign-in{
   display: block;
@@ -230,13 +237,6 @@ header{
     }
 }
 
- /*
-form{
-  display:block;
-  margin:20px;
-}
-*/
-
 .input{
   font-size: 15px;
   text-transform: uppercase;
@@ -251,12 +251,12 @@ form{
 }
 
 #forgot-link{
-  font-size: 14px;
-  line-height: 45px;
+  font-size: 0.9em;;
+  padding-top: 0.5em;
   color: $light-teal;
   display: inline-block;
   &:hover {
-    color: $teal;
+    color: $coral;
   }
 }
 
@@ -273,13 +273,15 @@ form{
   margin-left:-170px;
   border-bottom: 3px solid $teal;
   box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+
+  padding: 1em;
 }
 
 #close{
   float: right;
   color: $light-teal;
   font-size: 25px;
-  margin: 5px 20px 5px 0;
+  margin-bottom: 0.5em;
   &:hover{
     color: $teal;
   }
@@ -755,7 +757,7 @@ footer p {
   }
 
   form{
-    float: right;
+    //float: right;
   }
 
   .social li{
