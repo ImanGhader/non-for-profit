@@ -177,6 +177,13 @@ header{
   z-index: 3;
 }
 
+.anchor{
+  display: block;
+  height: 60px; /*same as header*/
+  margin-top: 60px; /*same as header*/
+  visibility: hidden;
+}
+
 .logo{
   width: 2.2em;
   margin-left: 10px;
