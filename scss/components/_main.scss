@@ -7,16 +7,16 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 //PAGE BORDERS:
@@ -230,11 +230,12 @@ header{
     }
 }
 
-.log-in-form{
+ /*
+form{
   display:block;
-  padding-left: 0.5em;
+  margin:20px;
 }
-
+*/
 
 .input{
   font-size: 15px;
@@ -250,14 +251,12 @@ header{
 }
 
 #forgot-link{
-  font-size: 0.75em;
+  font-size: 14px;
   line-height: 45px;
   color: $light-teal;
   display: inline-block;
   &:hover {
     color: $teal;
-  &:hover { 
-    color: $coral;
   }
 }
 
@@ -266,7 +265,7 @@ header{
   background-color:#F5F5F6;
   top:50%;
   left:50%;
-  z-index:98;
+  z-index:101;
   border-radius:3px;
   width:340px;
   height:240px;
@@ -284,14 +283,6 @@ header{
   &:hover{
     color: $teal;
   }
-}
-
-button{
-  @include button($light-teal, $coral, $light-teal);
-  float: right;
-  padding: 0.75em, 0.25em, 0.75em, 0.25em,;
-  font-size: 0.75em;
-  margin-top: 0.5em;
 }
 
 
@@ -365,6 +356,19 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   margin: 0 auto;
 }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 //////////// ABOUT PAGE STYLING
 
@@ -567,21 +571,24 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
-////////////////////////////// footer styling
+
+
+
+//////////////////////////////////////////////// footer styling
 
 .hide-text{
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
 }
 
 .ease-all{
-		-webkit-transition: all 350ms ease-in-out;
-		-moz-transition: all 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+    -moz-transition: all 350ms ease-in-out;
     -ms-transition: all 350ms ease-in-out;
     -o-transition: all 350ms ease-in-out;
-		transition: all 350ms ease-in-out;
+    transition: all 350ms ease-in-out;
 }
 
 ///////////////////// search bar ends Footer
@@ -694,6 +701,22 @@ footer p {
     }
 
 
+////////// MEDIA QUERY MEDIUM
+
+@media only screen and (min-width: 40em){
+
+  h1{
+    font-size: 1.8em;
+  }
+
+  .btn-donate{
+  font-size: 1.2em;
+  margin-right: 3em;
+  margin-top: 0;
+}
+
+
+
 ////////  BLOG *PAGE*
 
 .sidebar{
@@ -721,30 +744,32 @@ footer p {
 ///////// footer
 
 
-	.footer-social {
-		margin-bottom: 0;
-		margin-right: 2em;
-		margin-top:0;
-	}
+  .footer-social {
+    margin-bottom: 0;
+    margin-right: 2em;
+    margin-top:0;
+  }
 
 .search-form{
-		margin-right:2em;
-	}
+    margin-right:2em;
+  }
 
-	form{
-		float: right;
-	}
+  form{
+    float: right;
+  }
 
-	.social li{
-		float: right;
-	}
+  .social li{
+    float: right;
+  }
 
-	.footer-address,
-	.footer-copywright,
-	.footer-link {
-		float:left;
-		margin-left: 2em;
-	}
+  .footer-address,
+  .footer-copywright,
+  .footer-link {
+    float:left;
+    margin-left: 2em;
+  }
+
+} //media query medium screen
 
 
 body.noscript .slide-menu{
@@ -866,7 +891,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 input:focus {
   box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
-  z-index: 99;
+  z-index: 99999;
 }
 
 .payment-method {
@@ -956,29 +981,12 @@ input {
    background: #ffffff;
    }
 
-////////////thanks page styling
-
-.thanks-banner {
-  background-image: url("../images/slider-2.jpg");
-  background-size: cover;
-}   
-
 
 @media only screen and (min-width: 40em){
 
-  h1{
-    font-size: 1.8em;
-  }
-
-  .btn-donate{
-  font-size: 1.2em;
-  margin-right: 3em;
-  margin-top: 0;
-  }
-
-  .donate-icon {
-    margin-left: 33%;
-  }
+.donate-icon {
+  margin-left: 33%;
+}
 
 label[for="nav-trigger"] {
   /* critical positioning styles */
@@ -1003,7 +1011,9 @@ label[for="nav-trigger"] {
 
 }
 
+////////////thanks page styling
+
+.thanks-banner {
+  background-image: url("../images/slider-2.jpg");
+  background-size: cover;
 }
-
-
-
