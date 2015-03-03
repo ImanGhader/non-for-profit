@@ -293,31 +293,20 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 .why {
   text-align: center;
   font-family: $fancy;
-  //padding-top:2em;
-  //margin-bottom: 1em;
   position:relative;
   color: $teal;
   margin: 0 auto;
 
 }
 
-.arrow {
-  top: -22em;
-}
-
 .about-banner{
-  //padding: 1em;
-  padding-top: 100%;
-
-background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  background: url("../images/slider-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  //margin-bottom: 1em;
   display: block;
-  margin: 0 auto;
 }
 
 .wrapper-about {
