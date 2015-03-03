@@ -122,7 +122,7 @@ body{
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
-  right: 17px; top: 22px;
+  right: 17px; top: 25px;
   z-index: 2;
 
   /* non-critical apperance styles */
@@ -201,8 +201,90 @@ header{
   font-size: 0.9em;
   font-weight: 700;
   margin-right: 4em;
+  margin-top: 0.3em;
   padding: .4em;
 }
+
+///////// LOG IN
+
+
+.sign-in{
+  display: block;
+  padding: 1em;
+  padding-right: 2em;
+  font-size: 1.2em;
+  color: white;
+  text-decoration: none;
+
+  position:relative;
+  //float:right;
+  //margin:50px 70px;
+  -webkit-transition:margin 100ms;
+  -moz-transition:margin 100ms;
+  transition:margin 100ms ; 
+  //&:active{
+      //margin: 53px 70px;
+    //}
+   &:hover{
+      color: $coral;
+    } 
+}
+
+ /* 
+form{
+  display:block;
+  margin:20px;
+}
+*/
+
+.input{
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: 300px;
+  padding: 17px;
+  border: 3px solid #00B1B6;
+  &:focus {
+    border: 3px solid #EE4340;
+      outline:0;
+  }
+}
+
+#forgot-link{
+  font-size: 14px;
+  line-height: 45px;
+  color: $light-teal;
+  display: inline-block;
+  &:hover { 
+    color: $teal;
+  }
+}
+
+#modal{ 
+  position:absolute;
+  background-color:#F5F5F6;
+  top:50%; 
+  left:50%;
+  z-index:101;
+  border-radius:3px;
+  width:340px;
+  height:240px;
+  margin-top:-130px;
+  margin-left:-170px;
+  border-bottom: 3px solid $teal;
+  box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+#close{
+  float: right;
+  color: $light-teal;
+  font-size: 25px;
+  margin: 5px 20px 5px 0;
+  &:hover{
+    color: $teal;
+  }
+}
+
 
 
 /////////////////////// HOME PAGE STYLING
@@ -409,9 +491,11 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 .sidebar{
   background-color: $light-teal;
   width: 100%;
-  margin-top: 4em;
 }
 
+.popular{
+  margin-top: 2.5em;
+}
 .blog-main{
   width: 100%;
   margin-top: 3em;
@@ -628,6 +712,7 @@ footer p {
   .btn-donate{
   font-size: 1.2em;
   margin-right: 3em;
+  margin-top: 0;
 }
 
 
@@ -906,7 +991,7 @@ input {
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
-  right: 17px; top: 28px;
+  right: 17px; top: 26px;
   z-index: 2;
 
   /* non-critical apperance styles */
