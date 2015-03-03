@@ -30,7 +30,7 @@ html {
 
 .coral{
   color: #EF4442;
-  } 
+  }
 
 .light-teal{
   color: #00A5B9;
@@ -80,6 +80,26 @@ h1, .exa{
   display: inline;
   font-size: 1.5em;
   vertical-align: center;
+}
+
+.titles-teal {
+  font-family: $fancy;
+  font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  color: $dark-teal;
+  line-height: 2em;
+  display: block;
+}
+
+.titles-white {
+  font-family: $fancy;
+  font-size: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+  color: #fff;
+  line-height: 2em;
+  display: block;
 }
 
 h2, .peta {

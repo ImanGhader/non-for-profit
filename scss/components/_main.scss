@@ -182,6 +182,8 @@ header{
   height: 60px; /*same as header*/
   margin-top: 60px; /*same as header*/
   visibility: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .logo{
@@ -307,13 +309,13 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .icon-down-arrow{
-  color: white;
+  color: #fff;
   font-size: 2em;
   text-align: center;
   position: relative;
   display: block;
   bottom: 0.75em;
-  text-shadow: 2px 2px rgba(0,0,0,.5);
+  text-shadow: 2px 2px rgba(0,0,0,.9);
 }
 
 .counter {
@@ -337,7 +339,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -373,34 +375,24 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 .why {
   text-align: center;
   font-family: $fancy;
-  padding-top:2em;
-  margin-bottom: 1em;
   position:relative;
   color: $teal;
+  margin: 0 auto;
 
-}
-
-.arrow {
-  top: -3em;
 }
 
 .about-banner{
-  padding: 1em;
-  padding-top: 50%;
-
-background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  background: url("../images/slider-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  margin-bottom: 1em;
   display: block;
 }
 
 .wrapper-about {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13.5%;
+  margin-right: 13.5%;
 }
 
 #container {
@@ -413,13 +405,12 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
 #accordion label {
   @include font-skinny;
   @include transition (all, 0.3s, ease-in-out);
-  //border-radius: .25em;
   color: #fff;
   height: 10rem;
   cursor: pointer;
   display: block;
   text-align: center;
-  margin-bottom: .125em;
+  margin: 0 auto;
   padding: 2em 1em;
   z-index: 20;
   font-size: 2.5em;
@@ -429,7 +420,6 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   @include transition (all, 0.3s, ease-in-out);
   background-color:rgba(0,0,0,0.2);
   @include font-regular;
-
 }
 
 #accordion input:checked + label {
@@ -576,13 +566,6 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
   @include font-fat;
 }
 
-/*
-.about-list {
-  text-align: center;
-}
-
-*/
-
 .about-list ul li {
   line-height: 1.5em;
 }
@@ -607,43 +590,6 @@ background: url("../images/slider-3.jpg") no-repeat center center fixed;
     -o-transition: all 350ms ease-in-out;
 		transition: all 350ms ease-in-out;
 }
-
-
-
-
-
-///////search bar starts///////////Footer
-
-.search-form {
-  margin-left: 7em;
-  margin-top: 2em;
-  margin-bottom: 0;
-}
-
-form{
-  float: left;
-  position:relative;
-  margin-bottom: 0
-}
-
-.search {
-  padding:6px 15px 6px 30px;
-  //margin:3px;
-  background-color: white;
-}
-
-.rounded {
-  border-radius:15px;
-}
-
-input[type=text]{
-  color:#bcbcbc;
-}
-
-// .search-label {
-//   position: absolute;
-//   top: -10em;
-// }
 
 ///////////////////// search bar ends Footer
 
@@ -671,6 +617,7 @@ ul {
   height: 40px;
   width: 40px;
   padding-top: .8em;
+  padding-right: .2em;
   text-align: center;
   margin-left: 1rem;
 
@@ -834,37 +781,26 @@ body.noscript .slide-menu{
 
 //////////////////////////////////////////Contact Page
 .contact-banner{
-  padding: 1em;
-  padding-top: 50%;
-
 background: url("../images/header-contact.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  margin-bottom: 1em;
   display: block;
 }
 
 .country {
-  margin-left: 2em;
+  //margin-left: 1em;
   width: 100px;
   height: 100px;
-  margin-bottom: .75em;
+  margin-bottom: 2em;
   margin-top: 2em;
 }
 
 .wrapper-contact {
   margin-left: 12%;
   margin-right: 7%;
-}
-
-.contact-h1 {
-  font-family: $fancy;
-  text-align: center;
-  margin-left: 40%;
-  line-height: 4.5em;
 }
 
 .contact-h2 {
@@ -877,13 +813,13 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 .contact-page-address {
   @include font-regular;
-  margin-bottom: .5em;
+  margin-bottom: .2em;
   line-height: 1.2em;
 }
 
 .contact-address-info {
   @include font-skinny;
-  font-size: .75em;
+  font-size: .9em;
 }
 
 
@@ -898,21 +834,13 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 .donate-banner{
-  padding: 1em;
-  padding-bottom: 45%;
-
   background: url("../images/header-donate.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  margin-bottom: 1em;
   display: block;
-}
-
-.arrow-donate {
-  top: 17em;
 }
 
 .teal-background {
@@ -957,7 +885,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  padding: 2em;
 }
 
 input:focus {
@@ -1083,19 +1011,10 @@ label[for="nav-trigger"] {
 
 }
 
-
-
 ////////////thanks page styling
 
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
   background-size: cover;
-  padding-top: 50%;
 }
 
-.thanks-banner-h1 {
-  text-align: center;
-  color: #fff;
-  font-family: $fancy;
-  margin-left: 40%;
-}
