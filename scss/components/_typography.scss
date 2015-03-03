@@ -147,6 +147,7 @@ a{
   text-decoration: none;
   &:hover{
     font-weight: 700;
+    @include transition (all, 0.3s, ease-in-out)
   }
 }
 

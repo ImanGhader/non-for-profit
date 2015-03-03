@@ -2133,15 +2133,21 @@ a {
   text-decoration: none; }
   /* line 148, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
   a:hover {
-    font-weight: 700; }
+    font-weight: 700;
+    transition: all 0.3s ease-in-out; }
 
+<<<<<<< Updated upstream
 /* line 154, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 135, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 sub, sup {
   font-size: 75%;
   line-height: 1px;
   position: relative;
   vertical-align: baseline; }
 
+<<<<<<< Updated upstream
 /* line 161, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
 sup {
   top: -0.5em; }
@@ -2231,6 +2237,97 @@ sub {
   padding: 1.5rem; }
 
 /* line 249, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 142, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+sup {
+  top: -0.5em; }
+
+/* line 146, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+sub {
+  bottom: -0.25em; }
+
+/* line 150, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.text-left {
+  text-align: left; }
+
+/* line 154, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.text-right {
+  text-align: right; }
+
+/* line 158, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.text-center {
+  text-align: center; }
+
+/* line 162, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.normal {
+  font-weight: normal; }
+
+/* line 166, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.bold {
+  font-weight: bold; }
+
+/* line 170, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.italic {
+  font-style: italic; }
+
+/* line 174, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.push {
+  margin-bottom: 1.5rem; }
+
+/* line 178, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.push-none, .push-0 {
+  margin-bottom: 0; }
+
+/* line 182, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.push-double, .push-2 {
+  margin-bottom: 3rem; }
+
+/* line 186, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.push-half, .push-1-2 {
+  margin-bottom: 0.75rem; }
+
+/* line 190, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.push-quarter, .push-1-4 {
+  margin-bottom: 0.375rem; }
+
+/* line 194, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-top, .pad-t {
+  padding-top: 1.5rem; }
+
+/* line 198, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-bottom, .pad-b {
+  padding-bottom: 1.5rem; }
+
+/* line 202, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-top-double, .pad-t-2 {
+  padding-top: 3rem; }
+
+/* line 206, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-bottom-double, .pad-b-2 {
+  padding-bottom: 3rem; }
+
+/* line 210, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-top-half, .pad-t-1-2 {
+  padding-top: 0.75rem; }
+
+/* line 214, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: 0.75rem; }
+
+/* line 218, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-top-quarter, .pad-t-1-4 {
+  padding-top: 0.375rem; }
+
+/* line 222, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.pad-bottom-quarter, .pad-b-1-4 {
+  padding-bottom: 0.375rem; }
+
+/* line 226, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.island {
+  padding: 1.5rem; }
+
+/* line 230, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .island-max {
   padding: 1.5rem;
   max-width: 40em;
@@ -2238,7 +2335,11 @@ sub {
   position: relative;
   text-align: center; }
 
+<<<<<<< Updated upstream
 /* line 257, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 238, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .island-max-60 {
   padding: 1.5rem;
   max-width: 60em;
@@ -2246,6 +2347,7 @@ sub {
   position: relative;
   text-align: center; }
 
+<<<<<<< Updated upstream
 /* line 265, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
 .island-double, .island-2 {
   padding: 3rem; }
@@ -2259,21 +2361,48 @@ sub {
   padding: 0.375rem; }
 
 /* line 277, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 246, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.island-double, .island-2 {
+  padding: 3rem; }
+
+/* line 250, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.island-half, .island-1-2 {
+  padding: 0.75rem; }
+
+/* line 254, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+.island-quarter, .island-1-4 {
+  padding: 0.375rem; }
+
+/* line 258, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
+<<<<<<< Updated upstream
 /* line 282, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 263, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .gutter-double, .gutter-2 {
   padding-left: 3rem;
   padding-right: 3rem; }
 
+<<<<<<< Updated upstream
 /* line 287, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 268, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .gutter-half, .gutter-1-2 {
   padding-left: 0.75rem;
   padding-right: 0.75rem; }
 
+<<<<<<< Updated upstream
 /* line 292, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+=======
+/* line 273, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
+>>>>>>> Stashed changes
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.375rem;
   padding-right: 0.375rem; }
@@ -2511,6 +2640,7 @@ header {
   .sign-in:hover {
     color: #EF4442; }
 
+<<<<<<< Updated upstream
 /*
 form{
   display:block;
@@ -2518,6 +2648,14 @@ form{
 }
 */
 /* line 240, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 232, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.log-in-form {
+  display: block;
+  padding-left: 0.5em; }
+
+/* line 238, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .input {
   font-size: 15px;
   text-transform: uppercase;
@@ -2532,13 +2670,13 @@ form{
 
 /* line 253, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #forgot-link {
-  font-size: 14px;
+  font-size: 0.75em;
   line-height: 45px;
   color: #00A5B9;
   display: inline-block; }
   /* line 258, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   #forgot-link:hover {
-    color: #0091A5; }
+    color: #EF4442; }
 
 /* line 263, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #modal {
@@ -2546,7 +2684,7 @@ form{
   background-color: #F5F5F6;
   top: 50%;
   left: 50%;
-  z-index: 101;
+  z-index: 98;
   border-radius: 3px;
   width: 340px;
   height: 240px;
@@ -2565,20 +2703,49 @@ form{
   #close:hover {
     color: #0091A5; }
 
+<<<<<<< Updated upstream
 /* line 292, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 286, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+button {
+  border: solid 3px #00A5B9;
+  border-radius: 10px;
+  color: #00A5B9;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  float: right;
+  padding: 0.75em, 0.25em, 0.75em, 0.25em;
+  font-size: 0.75em;
+  margin-top: 0.5em; }
+  /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
+  button:hover {
+    border: solid 3px #EF4442;
+    color: #EF4442; }
+
+/* line 298, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .home-banner {
   background: url("../images/header-home.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 304, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 310, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .header-text {
   padding-top: 5em;
   padding-left: 1.5em;
   margin-bottom: 15em;
   max-width: 13em; }
 
+<<<<<<< Updated upstream
 /* line 311, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 317, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .icon-down-arrow {
   color: #fff;
   font-size: 2em;
@@ -2588,21 +2755,33 @@ form{
   bottom: 0.75em;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.9); }
 
+<<<<<<< Updated upstream
 /* line 321, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 327, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .counter {
   font-size: 3em;
   font-family: 'Pacifico', cursive;
   color: #007d91;
   margin-bottom: 0.25em; }
 
+<<<<<<< Updated upstream
 /* line 329, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 335, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .video-container, .teal-bg {
   background-color: #007d91;
   text-align: center;
   margin: 0 auto;
   width: 100%; }
 
+<<<<<<< Updated upstream
 /* line 337, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 343, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -2610,7 +2789,11 @@ form{
   height: 0;
   overflow: hidden; }
 
+<<<<<<< Updated upstream
 /* line 345, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 351, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -2618,13 +2801,21 @@ form{
   width: 100%;
   height: 100%; }
 
+<<<<<<< Updated upstream
 /* line 353, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 359, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .video {
   position: relative;
   text-align: center;
   margin: 0 auto; }
 
+<<<<<<< Updated upstream
 /* line 359, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 365, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -2632,7 +2823,11 @@ form{
   padding-top: 25px;
   height: 0; }
 
+<<<<<<< Updated upstream
 /* line 365, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 371, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -2640,35 +2835,65 @@ form{
   width: 100%;
   height: 100%; }
 
+<<<<<<< Updated upstream
 /* line 375, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 381, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .why {
   text-align: center;
   font-family: 'Pacifico', serif;
   position: relative;
+<<<<<<< Updated upstream
   color: #0091A5;
   margin: 0 auto; }
 
 /* line 384, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  color: #0091A5; }
+
+/* line 391, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.arrow {
+  top: -3em; }
+
+/* line 395, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .about-banner {
   background: url("../images/slider-3.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 393, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 409, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .wrapper-about {
   margin-left: 13.5%;
   margin-right: 13.5%; }
 
+<<<<<<< Updated upstream
 /* line 398, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 414, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #container {
   margin: 0 auto;
   width: 75%; }
 
+<<<<<<< Updated upstream
 /* line 402, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion input {
   display: none; }
 
 /* line 405, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 418, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+#accordion input {
+  display: none; }
+
+/* line 421, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #accordion label {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2683,56 +2908,96 @@ form{
   z-index: 20;
   font-size: 2.5em; }
 
+<<<<<<< Updated upstream
 /* line 419, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 436, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #accordion label:hover {
   transition: all 0.3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: 'Open-sans', sans-serif;
   font-weight: 400; }
 
+<<<<<<< Updated upstream
 /* line 425, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 443, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #accordion input:checked + label {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: white;
   margin-bottom: 0; }
 
+<<<<<<< Updated upstream
 /* line 431, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 449, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #accordion article {
   background: #fff;
   height: 0px;
   overflow: hidden;
   z-index: 10; }
 
+<<<<<<< Updated upstream
 /* line 437, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 #accordion article p {
   padding: 1em; }
 
 /* line 442, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 455, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+#accordion article p {
+  padding: 1em; }
+
+/* line 460, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 #accordion input:checked ~ article {
   height: auto;
   margin-bottom: 0.125em; }
 
+<<<<<<< Updated upstream
 /* line 449, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 467, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .accordion-bhutan {
   background: url('../images/banner-bhutan.jpg') no-repeat center center;
   background-size: cover; }
 
+<<<<<<< Updated upstream
 /* line 454, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 472, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .accordion-india {
   background: url('../images/banner-india.jpg') no-repeat center center;
   background-size: cover; }
 
+<<<<<<< Updated upstream
 /* line 459, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 477, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .accordion-nepal {
   background: url('../images/banner-nepal.jpg') no-repeat center center;
   background-size: cover; }
 
+<<<<<<< Updated upstream
 /* line 465, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .blog-large {
   width: 100%; }
 
 /* line 469, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 483, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.blog-large {
+  width: 100%; }
+
+/* line 487, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .blog-image-large {
   width: 100%;
   position: relative;
@@ -2740,37 +3005,65 @@ form{
   margin: 0 auto;
   margin-bottom: 1em; }
 
+<<<<<<< Updated upstream
 /* line 477, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 495, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .blog-small {
   border: solid 3px #0091A5;
   width: 100%; }
 
+<<<<<<< Updated upstream
 /* line 482, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 500, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .blog-image-small {
   width: 100%;
   position: relative;
   text-align: center;
   margin: 0 auto; }
 
+<<<<<<< Updated upstream
 /* line 491, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 509, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .sidebar {
   background-color: #00A5B9;
   width: 100%; }
 
+<<<<<<< Updated upstream
 /* line 496, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .popular {
   margin-top: 2.5em; }
 
 /* line 499, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 514, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.popular {
+  margin-top: 2.5em; }
+
+/* line 517, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .blog-main {
   width: 100%;
   margin-top: 3em; }
 
+<<<<<<< Updated upstream
 /* line 504, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .kailashi {
   margin-top: 3em; }
 
 /* line 508, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 522, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.kailashi {
+  margin-top: 3em; }
+
+/* line 526, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .empower {
   background-color: #00A5B9;
   width: 60%;
@@ -2780,7 +3073,11 @@ form{
   margin-bottom: 6em;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 518, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 536, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .btn-donate-white {
   border: solid 3px white;
   border-radius: 10px;
@@ -2798,21 +3095,33 @@ form{
     border: solid 3px #EF4442;
     color: #EF4442; }
 
+<<<<<<< Updated upstream
 /* line 527, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 545, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .share {
   text-decoration: none;
   display: inline-block;
   position: relative;
   color: white; }
 
+<<<<<<< Updated upstream
 /* line 537, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 555, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .programs {
   font-family: 'Pacifico', serif;
   color: #0091A5;
   margin-bottom: 1em;
   text-align: center; }
 
+<<<<<<< Updated upstream
 /* line 544, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 562, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .accordion-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2821,7 +3130,11 @@ form{
   text-shadow: none;
   line-height: 1.5; }
 
+<<<<<<< Updated upstream
 /* line 552, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 570, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .numbers {
   font-size: 3em;
   text-shadow: none;
@@ -2831,7 +3144,11 @@ form{
   margin-bottom: 0;
   padding: 0; }
 
+<<<<<<< Updated upstream
 /* line 562, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 580, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .numbers-list {
   margin-bottom: 3em;
   text-align: center;
@@ -2839,38 +3156,97 @@ form{
   font-family: 'Open-sans', sans-serif;
   font-weight: 700; }
 
+<<<<<<< Updated upstream
 /* line 569, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .about-list ul li {
   line-height: 1.5em; }
 
 /* line 579, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/*
+.about-list {
+  text-align: center;
+}
+
+*/
+/* line 594, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.about-list ul li {
+  line-height: 1.5em; }
+
+/* line 604, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 586, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .ease-all {
   transition: all 350ms ease-in-out; }
 
 /* line 596, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 611, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.ease-all {
+  transition: all 350ms ease-in-out; }
+
+/* line 625, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.search-form {
+  margin-left: 7em;
+  margin-top: 2em;
+  margin-bottom: 0; }
+
+/* line 631, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+form {
+  float: left;
+  position: relative;
+  margin-bottom: 0; }
+
+/* line 637, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.search {
+  padding: 6px 15px 6px 30px;
+  background-color: white; }
+
+/* line 643, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.rounded {
+  border-radius: 15px; }
+
+/* line 647, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+input[type=text] {
+  color: #bcbcbc; }
+
+/* line 658, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .footer-social {
   float: none;
   margin-top: 2em;
   margin-left: 6em;
   margin-bottom: 2em; }
 
+<<<<<<< Updated upstream
 /* line 603, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 665, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 ul {
   list-style-type: none;
   text-decoration: none; }
 
+<<<<<<< Updated upstream
 /* line 608, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .social li {
   float: none; }
 
 /* line 614, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 670, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.social li {
+  float: none; }
+
+/* line 676, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .social li a, .social li a:link, .social li a:visited {
   display: inline-block;
   float: left;
@@ -2887,14 +3263,22 @@ ul {
   -o-box-shadow: inset 0px 0px 0px 40px #EF4442;
   box-shadow: inset 0px 0px 0px 40px #EF4442; }
 
+<<<<<<< Updated upstream
 /* line 643, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 704, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .social li a:hover, .social li a:focus, .social li a:active {
   -ms-box-shadow: inset 0px 0px 0px 3px #EF4442;
   -o-box-shadow: inset 0px 0px 0px 3px #EF4442;
   box-shadow: inset 0px 0px 0px 3px #EF4442;
   color: #EF4442; }
 
+<<<<<<< Updated upstream
 /* line 653, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 714, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 footer {
   width: 100%;
   background-color: #262626;
@@ -2903,53 +3287,89 @@ footer {
   font-family: 'Open-sans', sans-serif;
   padding-top: 1em; }
 
+<<<<<<< Updated upstream
 /* line 663, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 724, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 footer p {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   color: #fff;
   font-size: 0.6em; }
 
+<<<<<<< Updated upstream
 /* line 670, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 731, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .footer-link {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   margin-bottom: 2em; }
 
+<<<<<<< Updated upstream
 /* line 677, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 738, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .footer-link a, .footer-link a:link, .footer-link a:visited {
   text-decoration: none;
   color: #00A5B9;
   border-bottom: 1px #00A5B9 solid; }
 
+<<<<<<< Updated upstream
 /* line 685, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 746, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .footer-link a:hover, .footer-link a:focus, .footer-link a:active {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   color: #0091A5;
   border-bottom: 5px #0091A5 solid; }
 
+<<<<<<< Updated upstream
 /* line 692, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:active {
   outline: none; }
 
 /* line 698, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 753, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.footer-link a:hover, .footer-link a:active {
+  outline: none; }
+
+/* line 759, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .footer-address, .footer-copywright, .footer-link {
   margin-left: 2em;
   font-size: 0.6em; }
 
 @media only screen and (min-width: 40em) {
+<<<<<<< Updated upstream
   /* line 708, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   h1 {
     font-size: 1.8em; }
 
   /* line 712, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 769, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  h1 {
+    font-size: 1.8em; }
+
+  /* line 773, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .btn-donate {
     font-size: 1.2em;
     margin-right: 3em;
     margin-top: 0; }
 
+<<<<<<< Updated upstream
   /* line 722, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 783, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .sidebar {
     background-color: #00A5B9;
     width: 30%;
@@ -2958,25 +3378,38 @@ footer p {
     float: right;
     clear: none; }
 
+<<<<<<< Updated upstream
   /* line 731, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 792, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .blog-main {
     width: 70%;
     float: left;
     clear: none; }
 
+<<<<<<< Updated upstream
   /* line 737, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 798, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .blog-other {
     width: 100%;
     float: none;
     display: block;
     clear: both; }
 
+<<<<<<< Updated upstream
   /* line 747, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 808, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .footer-social {
     margin-bottom: 0;
     margin-right: 2em;
     margin-top: 0; }
 
+<<<<<<< Updated upstream
   /* line 753, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .search-form {
     margin-right: 2em; }
@@ -2990,35 +3423,77 @@ footer p {
     float: right; }
 
   /* line 767, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 814, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  .search-form {
+    margin-right: 2em; }
+
+  /* line 818, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  form {
+    float: right; }
+
+  /* line 822, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  .social li {
+    float: right; }
+
+  /* line 828, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   .footer-address, .footer-copywright, .footer-link {
     float: left;
     margin-left: 2em; }
  }
 
+<<<<<<< Updated upstream
 /* line 775, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 836, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 body.noscript .slide-menu {
   position: static;
   right: auto; }
 
+<<<<<<< Updated upstream
 /* line 783, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 844, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .contact-banner {
   background: url("../images/header-contact.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 793, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 858, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .country {
   width: 100px;
   height: 100px;
   margin-bottom: 2em;
   margin-top: 2em; }
 
+<<<<<<< Updated upstream
 /* line 801, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 866, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .wrapper-contact {
   margin-left: 12%;
   margin-right: 7%; }
 
+<<<<<<< Updated upstream
 /* line 806, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 871, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.contact-h1 {
+  font-family: 'Pacifico', serif;
+  text-align: center;
+  margin-left: 40%;
+  line-height: 4.5em; }
+
+/* line 878, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .contact-h2 {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -3027,20 +3502,32 @@ body.noscript .slide-menu {
   font-size: 1em;
   line-height: 1.5em; }
 
+<<<<<<< Updated upstream
 /* line 814, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 886, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .contact-page-address {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   margin-bottom: 0.2em;
   line-height: 1.2em; }
 
+<<<<<<< Updated upstream
 /* line 820, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 892, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .contact-address-info {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   font-size: 0.9em; }
 
+<<<<<<< Updated upstream
 /* line 828, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 900, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-icon {
   width: 150px;
   height: 150px;
@@ -3048,23 +3535,43 @@ body.noscript .slide-menu {
   margin-left: 28%;
   margin-right: 7%; }
 
+<<<<<<< Updated upstream
 /* line 836, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 908, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-banner {
   background: url("../images/header-donate.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
+<<<<<<< Updated upstream
 /* line 846, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 922, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.arrow-donate {
+  top: 17em; }
+
+/* line 926, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .teal-background {
   background-color: #007d91;
   width: 100%; }
 
+<<<<<<< Updated upstream
 /* line 851, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 931, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-h2 {
   color: #fff;
   margin-left: 0; }
 
+<<<<<<< Updated upstream
 /* line 856, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 936, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-page-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
@@ -3073,23 +3580,39 @@ body.noscript .slide-menu {
   line-height: 1.2em;
   text-align: center; }
 
+<<<<<<< Updated upstream
 /* line 864, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 944, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-page-subtitles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   line-height: 0.5em; }
 
+<<<<<<< Updated upstream
 /* line 869, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 949, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-section {
   position: relative;
   margin: 0 auto; }
 
+<<<<<<< Updated upstream
 /* line 874, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 954, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-form-form {
   max-width: 700px;
   margin: 0 auto; }
 
+<<<<<<< Updated upstream
 /* line 880, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 960, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .donate-form {
   float: none;
   top: 2em;
@@ -3097,13 +3620,21 @@ body.noscript .slide-menu {
   background-size: cover;
   padding: 2em; }
 
+<<<<<<< Updated upstream
 /* line 891, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 971, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 input:focus {
   box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
-  z-index: 99999; }
+  z-index: 99; }
 
+<<<<<<< Updated upstream
 /* line 897, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 977, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .payment-method {
   color: rgba(0, 0, 0, 0.5);
   background-color: #fff;
@@ -3114,19 +3645,31 @@ input:focus {
   height: 40px;
   font-weight: bold; }
 
+<<<<<<< Updated upstream
 /* line 908, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 988, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 legend {
   padding-top: 2em;
   font-size: 18px;
   color: #fff;
   font-weight: bold; }
 
+<<<<<<< Updated upstream
 /* line 915, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 995, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .radio {
   margin-top: -0.75em;
   margin-bottom: 0; }
 
+<<<<<<< Updated upstream
 /* line 920, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1000, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .radio input {
   display: inline-block;
   border: 0;
@@ -3134,14 +3677,22 @@ legend {
   box-shadow: none;
   width: 20px; }
 
+<<<<<<< Updated upstream
 /* line 928, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1008, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 label {
   color: #fff;
   font-size: 18px;
   margin-right: 10px;
   margin-left: 0; }
 
+<<<<<<< Updated upstream
 /* line 935, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1015, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 input {
   font-weight: bold;
   display: block;
@@ -3154,7 +3705,11 @@ input {
   border-radius: 4px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
+<<<<<<< Updated upstream
 /* line 948, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1028, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .form-button {
   border: 1px solid #00A5B9;
   background: #007d91;
@@ -3167,7 +3722,11 @@ input {
   vertical-align: middle;
   width: auto; }
 
+<<<<<<< Updated upstream
 /* line 971, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1051, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .form-button:hover {
   border: 1px solid #EF4442;
   background: #ffffff;
@@ -3175,17 +3734,29 @@ input {
   text-shadow: none;
   cursor: pointer; }
 
+<<<<<<< Updated upstream
 /* line 979, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+/* line 1059, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
 .form-button:active {
   border: 1px solid #ffffff;
   background: #ffffff; }
 
 @media only screen and (min-width: 40em) {
+<<<<<<< Updated upstream
   /* line 987, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .donate-icon {
     margin-left: 33%; }
 
   /* line 991, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+  /* line 1067, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  .donate-icon {
+    margin-left: 33%; }
+
+  /* line 1071, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
   label[for="nav-trigger"] {
     /* critical positioning styles */
     position: fixed;
@@ -3199,12 +3770,31 @@ input {
     background: url("../images/toggle.svg");
     background-size: cover;
     padding: 0.25em; }
+<<<<<<< Updated upstream
     /* line 1007, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+=======
+    /* line 1087, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+>>>>>>> Stashed changes
     label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
       background: url("../images/toggle-hover.svg"); }
  }
 
+<<<<<<< Updated upstream
 /* line 1016, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
   background-size: cover; }
+=======
+/* line 1098, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.thanks-banner {
+  background-image: url("../images/slider-2.jpg");
+  background-size: cover;
+  padding-top: 50%; }
+
+/* line 1104, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.thanks-banner-h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Pacifico', serif;
+  margin-left: 40%; }
+>>>>>>> Stashed changes

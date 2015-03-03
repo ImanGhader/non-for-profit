@@ -230,12 +230,17 @@ header{
     }
 }
 
+<<<<<<< Updated upstream
  /*
 form{
+=======
+
+.log-in-form{
+>>>>>>> Stashed changes
   display:block;
-  margin:20px;
+  padding-left: 0.5em;
 }
-*/
+
 
 .input{
   font-size: 15px;
@@ -251,12 +256,17 @@ form{
 }
 
 #forgot-link{
-  font-size: 14px;
+  font-size: 0.75em;
   line-height: 45px;
   color: $light-teal;
   display: inline-block;
+<<<<<<< Updated upstream
   &:hover {
     color: $teal;
+=======
+  &:hover { 
+    color: $coral;
+>>>>>>> Stashed changes
   }
 }
 
@@ -265,7 +275,7 @@ form{
   background-color:#F5F5F6;
   top:50%;
   left:50%;
-  z-index:101;
+  z-index:98;
   border-radius:3px;
   width:340px;
   height:240px;
@@ -283,6 +293,14 @@ form{
   &:hover{
     color: $teal;
   }
+}
+
+button{
+  @include button($light-teal, $coral, $light-teal);
+  float: right;
+  padding: 0.75em, 0.25em, 0.75em, 0.25em,;
+  font-size: 0.75em;
+  margin-top: 0.5em;
 }
 
 
@@ -891,7 +909,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 input:focus {
   box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
-  z-index: 99999;
+  z-index: 99;
 }
 
 .payment-method {
