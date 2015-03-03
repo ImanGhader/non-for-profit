@@ -256,7 +256,6 @@ header{
   display: inline-block;
   &:hover {
     color: $teal;
-=======
   &:hover { 
     color: $coral;
   }
@@ -366,19 +365,6 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   margin: 0 auto;
 }
 
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-}
-.videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 //////////// ABOUT PAGE STYLING
 
@@ -581,10 +567,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 
-
-
-
-//////////////////////////////////////////////// footer styling
+////////////////////////////// footer styling
 
 .hide-text{
 	text-indent: 100%;
@@ -711,22 +694,6 @@ footer p {
     }
 
 
-////////// MEDIA QUERY MEDIUM
-
-@media only screen and (min-width: 40em){
-
-  h1{
-    font-size: 1.8em;
-  }
-
-  .btn-donate{
-  font-size: 1.2em;
-  margin-right: 3em;
-  margin-top: 0;
-}
-
-
-
 ////////  BLOG *PAGE*
 
 .sidebar{
@@ -778,8 +745,6 @@ footer p {
 		float:left;
 		margin-left: 2em;
 	}
-
-} //media query medium screen
 
 
 body.noscript .slide-menu{
@@ -991,12 +956,29 @@ input {
    background: #ffffff;
    }
 
+////////////thanks page styling
+
+.thanks-banner {
+  background-image: url("../images/slider-2.jpg");
+  background-size: cover;
+}   
+
 
 @media only screen and (min-width: 40em){
 
-.donate-icon {
-  margin-left: 33%;
-}
+  h1{
+    font-size: 1.8em;
+  }
+
+  .btn-donate{
+  font-size: 1.2em;
+  margin-right: 3em;
+  margin-top: 0;
+  }
+
+  .donate-icon {
+    margin-left: 33%;
+  }
 
 label[for="nav-trigger"] {
   /* critical positioning styles */
@@ -1021,10 +1003,7 @@ label[for="nav-trigger"] {
 
 }
 
-////////////thanks page styling
-
-.thanks-banner {
-  background-image: url("../images/slider-2.jpg");
-  background-size: cover;
 }
+
+
 
