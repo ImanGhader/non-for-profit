@@ -305,7 +305,6 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   display: block;
 }
 
@@ -508,43 +507,6 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 		transition: all 350ms ease-in-out;
 }
 
-
-
-
-
-///////search bar starts///////////Footer
-
-.search-form {
-  margin-left: 7em;
-  margin-top: 2em;
-  margin-bottom: 0;
-}
-
-form{
-  float: left;
-  position:relative;
-  margin-bottom: 0
-}
-
-.search {
-  padding:6px 15px 6px 30px;
-  //margin:3px;
-  background-color: white;
-}
-
-.rounded {
-  border-radius:15px;
-}
-
-input[type=text]{
-  color:#bcbcbc;
-}
-
-// .search-label {
-//   position: absolute;
-//   top: -10em;
-// }
-
 ///////////////////// search bar ends Footer
 
 .footer-social {
@@ -571,6 +533,7 @@ ul {
   height: 40px;
   width: 40px;
   padding-top: .8em;
+  padding-right: .2em;
   text-align: center;
   margin-left: 1rem;
 
