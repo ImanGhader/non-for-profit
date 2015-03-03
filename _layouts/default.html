@@ -13,7 +13,7 @@
 
 <body class="noscript">
 	<!--LOG IN-->
-	<div class="modal-bg">
+	<div class="log-in hidden" id="myContent">
 			<div id="modal">
 				<a href="#close" id="close">&#215;</a>
 				<form class="log-in-form">
@@ -32,7 +32,7 @@
 	    <li class="nav-item"><a href="{{site.baseurl}}/donate">Donate</a></li>
 	    <li class="nav-item"><a href="{{site.baseurl}}/blog">Blog</a></li>
 	    <li class="nav-item"><a href="{{site.baseurl}}/contact">Contact</a></li>
-	    <li class="nav-item"><span class="sign-in">Sign In</span></li>
+	    <li class="nav-item"><a href="javascript:toggleDiv('myContent');"><span class="sign-in">Sign In</span></a></li>
 	</ul>
 
 	<input type="checkbox" id="nav-trigger" class="nav-trigger" />

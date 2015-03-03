@@ -206,6 +206,11 @@ header{
 }
 
 ///////// LOG IN
+
+.hidden {
+     display:none;
+}
+
 .sign-in-btn{
   @include button($light-teal, $coral, $light-teal);
   background-color: white;
@@ -256,7 +261,7 @@ header{
   color: $light-teal;
   display: inline-block;
   &:hover {
-    color: $coral;
+    color: $teal;
   }
 }
 

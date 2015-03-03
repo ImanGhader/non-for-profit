@@ -52,3 +52,7 @@ $('.sign-in').click(function(){
         $('#modal').fadeOut();
       return false;
     });
+
+function toggleDiv(divId) {
+        $("#"+divId).toggle(); 
+    }
