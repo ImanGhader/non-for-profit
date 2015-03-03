@@ -3021,7 +3021,8 @@ body.noscript .slide-menu {
   float: none;
   top: 2em;
   background: url("../images/form-bg.jpg") no-repeat center center;
-  background-size: cover; }
+  background-size: cover;
+  padding: 2em; }
 
 /* line 806, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input:focus {
@@ -3130,15 +3131,7 @@ input {
       background: url("../images/toggle-hover.svg"); }
  }
 
-/* line 933, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 931, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
-  background-size: cover;
-  padding-top: 50%; }
-
-/* line 939, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-.thanks-banner-h1 {
-  text-align: center;
-  color: #fff;
-  font-family: 'Pacifico', serif;
-  margin-left: 40%; }
+  background-size: cover; }

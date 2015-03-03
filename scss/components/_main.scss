@@ -800,7 +800,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  padding: 2em;
 }
 
 input:focus {
@@ -926,19 +926,10 @@ label[for="nav-trigger"] {
 
 }
 
-
-
 ////////////thanks page styling
 
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
   background-size: cover;
-  padding-top: 50%;
 }
 
-.thanks-banner-h1 {
-  text-align: center;
-  color: #fff;
-  font-family: $fancy;
-  margin-left: 40%;
-}
