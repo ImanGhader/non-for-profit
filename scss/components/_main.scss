@@ -227,13 +227,13 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .icon-down-arrow{
-  color: white;
+  color: #fff;
   font-size: 2em;
   text-align: center;
   position: relative;
   display: block;
   bottom: 0.75em;
-  text-shadow: 2px 2px rgba(0,0,0,.5);
+  text-shadow: 2px 2px rgba(0,0,0,.9);
 }
 
 .counter {
@@ -309,8 +309,8 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .wrapper-about {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 13.5%;
+  margin-right: 13.5%;
 }
 
 #container {
@@ -696,37 +696,26 @@ body.noscript .slide-menu{
 
 //////////////////////////////////////////Contact Page
 .contact-banner{
-  padding: 1em;
-  padding-top: 50%;
-
 background: url("../images/header-contact.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  margin-bottom: 1em;
   display: block;
 }
 
 .country {
-  margin-left: 2em;
+  //margin-left: 1em;
   width: 100px;
   height: 100px;
-  margin-bottom: .75em;
+  margin-bottom: 2em;
   margin-top: 2em;
 }
 
 .wrapper-contact {
   margin-left: 12%;
   margin-right: 7%;
-}
-
-.contact-h1 {
-  font-family: $fancy;
-  text-align: center;
-  margin-left: 40%;
-  line-height: 4.5em;
 }
 
 .contact-h2 {
@@ -760,21 +749,13 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 .donate-banner{
-  padding: 1em;
-  padding-bottom: 45%;
-
   background: url("../images/header-donate.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  margin-bottom: 1em;
   display: block;
-}
-
-.arrow-donate {
-  top: 17em;
 }
 
 .teal-background {
