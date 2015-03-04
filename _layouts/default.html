@@ -12,19 +12,19 @@
 </head>
 
 <body class="noscript">
-	<!--
-	<div class="modal-bg">
+	<!--LOG IN-->
+	<div class="log-in hidden" id="myContent">
 			<div id="modal">
 				<a href="#close" id="close">&#215;</a>
 				<form class="log-in-form">
 					<input class="input" id="username" name="username" type="textbox" placeholder="Username" required>
 					<input class="input" id="password" name="password" type="password" placeholder="Password" required>
 					<a id="forgot-link" href="#">Forgot password?</a>
-					<button name="submit" id="submit" type="submit">Sign in</button>
+					<button class="sign-in-btn" name="submit" id="submit" type="submit">Sign in</button>
 				</form>
 			</div>
 		</div>
--->
+
 	<!--SIDE NAV-->
 	<ul class="navigation">
 	    <li class="nav-item"><a href="{{site.baseurl}}/index">Home</a></li>
@@ -32,7 +32,7 @@
 	    <li class="nav-item"><a href="{{site.baseurl}}/donate">Donate</a></li>
 	    <li class="nav-item"><a href="{{site.baseurl}}/blog">Blog</a></li>
 	    <li class="nav-item"><a href="{{site.baseurl}}/contact">Contact</a></li>
-	    <li class="nav-item"><span class="sign-in">Sign In</span></li>
+	    <li class="nav-item"><a href="javascript:toggleDiv('myContent');"><span class="sign-in">Sign In</span></a></li>
 	</ul>
 
 	<input type="checkbox" id="nav-trigger" class="nav-trigger" />
