@@ -222,9 +222,10 @@ header{
 
 .sign-in{
   display: block;
-  padding: 1em;
-  padding-right: 2em;
-  font-size: 1.2em;
+  padding-top: 1em;
+  text-align: right;
+  margin-top: -1em;
+  font-size: 1em;
   color: white;
   text-decoration: none;
 
@@ -261,7 +262,7 @@ header{
   color: $light-teal;
   display: inline-block;
   &:hover {
-    color: $teal;
+    color: $coral;
   }
 }
 
@@ -271,12 +272,12 @@ header{
   top:50%;
   left:50%;
   z-index:101;
-  border-radius:3px;
+  border-radius:5px;
   width:340px;
-  height:240px;
-  margin-top:-130px;
+  height:250px;
+  margin-top:-90px;
   margin-left:-170px;
-  border-bottom: 3px solid $teal;
+  border: 3px solid $teal;
   box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
 
   padding: 1em;
@@ -285,10 +286,10 @@ header{
 #close{
   float: right;
   color: $light-teal;
-  font-size: 25px;
+  font-size: 1.5em;
   margin-bottom: 0.5em;
   &:hover{
-    color: $teal;
+    color: $coral;
   }
 }
 
