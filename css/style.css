@@ -2365,7 +2365,7 @@ body {
   right: 10px;
   z-index: 0;
   list-style: none;
-  background: #0091A5;
+  background: #007d91;
   text-align: right; }
 
 /* Navigation List items */
@@ -2381,7 +2381,7 @@ body {
 
 /* line 94, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-item a:hover {
-  color: #EF4442; }
+  color: #e06868; }
 
 /* Site Wrapper - Everything that isn't navigation */
 /* line 99, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
@@ -2481,9 +2481,9 @@ header {
 
 /* line 198, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .btn-donate {
-  border: solid 3px #EF4442;
+  border: solid 3px #e06868;
   border-radius: 10px;
-  color: #EF4442;
+  color: #e06868;
   display: inline-block;
   text-decoration: none;
   transition: all 150ms ease-in-out;
@@ -2516,8 +2516,8 @@ header {
   padding: 0.25em; }
   /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
   .sign-in-btn:hover {
-    border: solid 3px #EF4442;
-    color: #EF4442; }
+    border: solid 3px #e06868;
+    color: #e06868; }
 
 /* line 223, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .sign-in {
@@ -2532,7 +2532,7 @@ header {
   transition: margin 100ms; }
   /* line 241, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .sign-in:hover {
-    color: #EF4442; }
+    color: #e06868; }
 
 /* line 246, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .input {
@@ -2555,7 +2555,7 @@ header {
   display: inline-block; }
   /* line 264, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   #forgot-link:hover {
-    color: #EF4442; }
+    color: #e06868; }
 
 /* line 269, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #modal {
@@ -2581,7 +2581,7 @@ header {
   margin-bottom: 0.5em; }
   /* line 291, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   #close:hover {
-    color: #EF4442; }
+    color: #e06868; }
 
 /* line 300, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .home-banner {
@@ -2813,8 +2813,8 @@ header {
   padding: 0.35em; }
   /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
   .btn-donate-white:hover {
-    border: solid 3px #EF4442;
-    color: #EF4442; }
+    border: solid 3px #e06868;
+    color: #e06868; }
 
 /* line 535, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .share {
@@ -2901,16 +2901,16 @@ ul {
   -o-border-radius: 20px;
   border-radius: 20px;
   color: #fff;
-  -ms-box-shadow: inset 0px 0px 0px 40px #EF4442;
-  -o-box-shadow: inset 0px 0px 0px 40px #EF4442;
-  box-shadow: inset 0px 0px 0px 40px #EF4442; }
+  -ms-box-shadow: inset 0px 0px 0px 40px #e06868;
+  -o-box-shadow: inset 0px 0px 0px 40px #e06868;
+  box-shadow: inset 0px 0px 0px 40px #e06868; }
 
 /* line 651, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li a:hover, .social li a:focus, .social li a:active {
-  -ms-box-shadow: inset 0px 0px 0px 3px #EF4442;
-  -o-box-shadow: inset 0px 0px 0px 3px #EF4442;
-  box-shadow: inset 0px 0px 0px 3px #EF4442;
-  color: #EF4442; }
+  -ms-box-shadow: inset 0px 0px 0px 3px #e06868;
+  -o-box-shadow: inset 0px 0px 0px 3px #e06868;
+  box-shadow: inset 0px 0px 0px 3px #e06868;
+  color: #e06868; }
 
 /* line 661, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 footer {
@@ -3184,9 +3184,9 @@ input {
 
 /* line 979, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .form-button:hover {
-  border: 1px solid #EF4442;
+  border: 1px solid #e06868;
   background: #ffffff;
-  color: #EF4442;
+  color: #e06868;
   text-shadow: none;
   cursor: pointer; }
 
