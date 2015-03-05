@@ -2559,7 +2559,7 @@ header {
 
 /* line 269, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #modal {
-  position: absolute;
+  position: fixed;
   background-color: #F5F5F6;
   top: 50%;
   left: 50%;
@@ -2772,7 +2772,7 @@ header {
 
 /* line 499, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .sidebar {
-  background-color: #00A5B9;
+  background-color: #007d91;
   width: 100%; }
 
 /* line 504, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
@@ -2790,7 +2790,7 @@ header {
 
 /* line 516, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .empower {
-  background-color: #00A5B9;
+  background-color: #007d91;
   width: 60%;
   position: relative;
   text-align: center;

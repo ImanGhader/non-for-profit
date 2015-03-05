@@ -267,7 +267,7 @@ header{
 }
 
 #modal{
-  position:absolute;
+  position:fixed;
   background-color:#F5F5F6;
   top:50%;
   left:50%;
@@ -497,7 +497,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 
 ///////////////////   BLOG *PAGE* STYLES
 .sidebar{
-  background-color: $light-teal;
+  background-color: $dark-teal;
   width: 100%;
 }
 
@@ -514,7 +514,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .empower{
-  background-color: $light-teal;
+  background-color: $dark-teal;
   width: 60%;
   position: relative;
   text-align: center;
