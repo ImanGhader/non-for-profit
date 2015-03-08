@@ -2668,7 +2668,7 @@ header {
 
 /* line 392, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .about-banner {
-  background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  background: url("../images/header-about.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
