@@ -8,11 +8,11 @@
 /* Paul Irish's Padding Fix
 http://paulirish.com/2012/box-sizing-border-box-ftw
 */
-/* line 10, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 10, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 * {
   box-sizing: border-box; }
 
-/* line 26, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 26, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -22,28 +22,28 @@ html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 36, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 36, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
-/* line 39, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 39, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 body {
   line-height: 1; }
 
-/* line 42, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 42, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 ol, ul {
   list-style: none; }
 
-/* line 45, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 45, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 blockquote, q {
   quotes: none; }
 
-/* line 49, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 49, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/reset */
+/* line 53, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/reset */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -65,7 +65,7 @@ table {
   }
 }
 */
-/* line 22, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 22, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "read-global-custom";
   font-style: normal;
@@ -90,77 +90,77 @@ table {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 53, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-bhutan:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 54, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-down-arrow:before {
   content: '\e802'; }
 
 /* '' */
-/* line 55, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 55, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-facebook:before {
   content: '\e803'; }
 
 /* '' */
-/* line 56, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 56, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-left-arrow:before {
   content: '\e804'; }
 
 /* '' */
-/* line 57, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 57, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-logo-outline:before {
   content: '\e806'; }
 
 /* '' */
-/* line 58, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 58, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-menu-close:before {
   content: '\e808'; }
 
 /* '' */
-/* line 59, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 59, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-menu-open-copy:before {
   content: '\e809'; }
 
 /* '' */
-/* line 60, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 60, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-nepal:before {
   content: '\e80a'; }
 
 /* '' */
-/* line 61, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 61, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-pinterest:before {
   content: '\e80b'; }
 
 /* '' */
-/* line 62, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 62, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-logo-solid:before {
   content: '\e80c'; }
 
 /* '' */
-/* line 63, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 63, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-right-arrow:before {
   content: '\e80d'; }
 
 /* '' */
-/* line 64, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 64, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-search:before {
   content: '\e80e'; }
 
 /* '' */
-/* line 65, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 65, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-twitter:before {
   content: '\e80f'; }
 
 /* '' */
-/* line 66, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 66, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-up-arrow:before {
   content: '\e810'; }
 
 /* '' */
-/* line 67, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/read-global-custom */
+/* line 67, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/read-global-custom */
 .icon-india:before {
   content: '\e811'; }
 
@@ -182,7 +182,7 @@ table {
   }
 }
 */
-/* line 22, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/push-menu-custom */
+/* line 22, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/push-menu-custom */
 [class^="i-"]:before, [class*=" i-"]:before {
   font-family: "push-menu-custom";
   font-style: normal;
@@ -207,17 +207,17 @@ table {
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/push-menu-custom */
+/* line 53, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/push-menu-custom */
 .i-menu:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/push-menu-custom */
+/* line 54, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
 
 /* '' */
-/* line 1, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 1, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid {
   margin: 0;
   padding: 0;
@@ -232,32 +232,32 @@ table {
       -ms-flex-flow: row wrap;
           flex-flow: row wrap; }
 
-/* line 14, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 14, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;
   -ms-flex-align: end;
       align-items: flex-end; }
 
-/* line 20, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 20, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center;
   -ms-flex-align: center;
       align-items: center; }
 
-/* line 26, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 26, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid-stretch {
   -webkit-align-items: stretch;
   -ms-align-items: stretch;
   -ms-flex-align: stretch;
       align-items: stretch; }
 
-/* line 32, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 32, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .opera-only :-o-prefocus, .grid {
   word-spacing: -0.43em; }
 
-/* line 36, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 36, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit {
   letter-spacing: normal;
   text-rendering: auto;
@@ -266,1798 +266,1798 @@ table {
   display: inline-block;
   visibility: visible; }
 
-/* line 45, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 45, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid-bottom .unit {
   vertical-align: bottom; }
 
-/* line 49, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 49, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .grid-middle .unit {
   vertical-align: middle; }
 
-/* line 54, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 54, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit[class*="push-"], .unit[class*="pull-"] {
   position: relative; }
 
-/* line 58, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 58, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-hidden {
   display: none;
   visibility: hidden; }
 
-/* line 63, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 63, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-centered {
   margin: 0 auto; }
 
-/* line 67, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 67, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-1 {
   display: block;
   visibility: visible;
   width: 100%; }
 
-/* line 73, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 73, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-0 {
   margin-left: 0; }
 
-/* line 78, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 78, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-0, .unit-pull-xs-0 {
   left: 0; }
 
-/* line 82, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 82, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-1-2 {
   width: 50%; }
 
-/* line 86, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 86, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-1-2 {
   margin-left: 50%; }
 
-/* line 90, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 90, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-1-2 {
   left: 50%; }
 
-/* line 94, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 94, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-pull-xs-1-2 {
   left: -50%; }
 
-/* line 98, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 98, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-1-3 {
   width: 33.3333%; }
 
-/* line 102, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 102, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-1-3 {
   margin-left: 33.3333%; }
 
-/* line 106, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 106, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-1-3 {
   left: 33.3333%; }
 
-/* line 110, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 110, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-pull-xs-1-3 {
   left: -33.3333%; }
 
-/* line 114, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 114, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-2-3 {
   width: 66.6667%; }
 
-/* line 118, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 118, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-2-3 {
   margin-left: 66.6667%; }
 
-/* line 122, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 122, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-2-3 {
   left: 66.6667%; }
 
-/* line 126, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 126, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-pull-xs-2-3 {
   left: -66.6667%; }
 
-/* line 130, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 130, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-1-4 {
   width: 25%; }
 
-/* line 134, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 134, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-1-4 {
   margin-left: 25%; }
 
-/* line 138, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 138, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-1-4 {
   left: 25%; }
 
-/* line 142, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 142, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-pull-xs-1-4 {
   left: -25%; }
 
-/* line 146, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 146, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-3-4 {
   width: 75%; }
 
-/* line 150, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 150, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-offset-xs-3-4 {
   margin-left: 75%; }
 
-/* line 154, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 154, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-push-xs-3-4 {
   left: 75%; }
 
-/* line 158, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 158, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-pull-xs-3-4 {
   left: -75%; }
 
-/* line 162, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+/* line 162, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
 .unit-xs-1-2, .unit-xs-1-3, .unit-xs-2-3, .unit-xs-1-4, .unit-xs-3-4 {
   display: inline-block;
   visibility: visible; }
 
 @media only screen and (min-width: 25em) {
-  /* line 169, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 169, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 174, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 174, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-centered {
     margin: 0 auto; }
 
-  /* line 178, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 178, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 184, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 184, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-0 {
     margin-left: 0; }
 
-  /* line 189, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 189, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-0, .unit-pull-s-0 {
     left: 0; }
 
-  /* line 193, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 193, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-1-2 {
     width: 50%; }
 
-  /* line 197, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 197, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-1-2 {
     margin-left: 50%; }
 
-  /* line 201, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 201, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-1-2 {
     left: 50%; }
 
-  /* line 205, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 205, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-s-1-2 {
     left: -50%; }
 
-  /* line 209, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 209, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-1-3 {
     width: 33.3333%; }
 
-  /* line 213, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 213, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 217, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 217, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-1-3 {
     left: 33.3333%; }
 
-  /* line 221, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 221, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-s-1-3 {
     left: -33.3333%; }
 
-  /* line 225, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 225, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-2-3 {
     width: 66.6667%; }
 
-  /* line 229, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 229, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 233, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 233, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-2-3 {
     left: 66.6667%; }
 
-  /* line 237, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 237, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-s-2-3 {
     left: -66.6667%; }
 
-  /* line 241, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 241, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-1-4 {
     width: 25%; }
 
-  /* line 245, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 245, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-1-4 {
     margin-left: 25%; }
 
-  /* line 249, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 249, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-1-4 {
     left: 25%; }
 
-  /* line 253, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 253, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-s-1-4 {
     left: -25%; }
 
-  /* line 257, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 257, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-3-4 {
     width: 75%; }
 
-  /* line 261, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 261, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-s-3-4 {
     margin-left: 75%; }
 
-  /* line 265, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 265, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-s-3-4 {
     left: 75%; }
 
-  /* line 269, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 269, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-s-3-4 {
     left: -75%; }
 
-  /* line 273, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 273, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-s-1-2, .unit-s-1-3, .unit-s-2-3, .unit-s-1-4, .unit-s-3-4 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 38em) {
-  /* line 282, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 282, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 287, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 287, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-centered {
     margin: 0 auto; }
 
-  /* line 291, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 291, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 297, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 297, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-0 {
     margin-left: 0; }
 
-  /* line 302, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 302, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-0, .unit-pull-m-0 {
     left: 0; }
 
-  /* line 306, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 306, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-2 {
     width: 50%; }
 
-  /* line 310, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 310, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-2 {
     margin-left: 50%; }
 
-  /* line 314, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 314, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-2 {
     left: 50%; }
 
-  /* line 318, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 318, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-2 {
     left: -50%; }
 
-  /* line 322, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 322, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-3 {
     width: 33.3333%; }
 
-  /* line 326, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 326, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 330, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 330, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-3 {
     left: 33.3333%; }
 
-  /* line 334, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 334, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-3 {
     left: -33.3333%; }
 
-  /* line 338, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 338, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-2-3 {
     width: 66.6667%; }
 
-  /* line 342, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 342, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 346, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 346, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-2-3 {
     left: 66.6667%; }
 
-  /* line 350, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 350, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-2-3 {
     left: -66.6667%; }
 
-  /* line 354, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 354, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-4 {
     width: 25%; }
 
-  /* line 358, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 358, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-4 {
     margin-left: 25%; }
 
-  /* line 362, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 362, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-4 {
     left: 25%; }
 
-  /* line 366, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 366, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-4 {
     left: -25%; }
 
-  /* line 370, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 370, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-4 {
     width: 75%; }
 
-  /* line 374, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 374, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-4 {
     margin-left: 75%; }
 
-  /* line 378, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 378, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-4 {
     left: 75%; }
 
-  /* line 382, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 382, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-4 {
     left: -75%; }
 
-  /* line 386, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 386, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-5 {
     width: 20%; }
 
-  /* line 390, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 390, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-5 {
     margin-left: 20%; }
 
-  /* line 394, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 394, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-5 {
     left: 20%; }
 
-  /* line 398, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 398, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-5 {
     left: -20%; }
 
-  /* line 402, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 402, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-2-5 {
     width: 40%; }
 
-  /* line 406, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 406, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-2-5 {
     margin-left: 40%; }
 
-  /* line 410, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 410, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-2-5 {
     left: 40%; }
 
-  /* line 414, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 414, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-2-5 {
     left: -40%; }
 
-  /* line 418, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 418, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-5 {
     width: 60%; }
 
-  /* line 422, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 422, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-5 {
     margin-left: 60%; }
 
-  /* line 426, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 426, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-5 {
     left: 60%; }
 
-  /* line 430, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 430, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-5 {
     left: -60%; }
 
-  /* line 434, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 434, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-4-5 {
     width: 80%; }
 
-  /* line 438, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 438, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-4-5 {
     margin-left: 80%; }
 
-  /* line 442, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 442, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-4-5 {
     left: 80%; }
 
-  /* line 446, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 446, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-4-5 {
     left: -80%; }
 
-  /* line 450, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 450, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-6 {
     width: 16.6667%; }
 
-  /* line 454, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 454, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-6 {
     margin-left: 16.6667%; }
 
-  /* line 458, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 458, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-6 {
     left: 16.6667%; }
 
-  /* line 462, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 462, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-6 {
     left: -16.6667%; }
 
-  /* line 466, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 466, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-6 {
     width: 83.3333%; }
 
-  /* line 470, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 470, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-6 {
     margin-left: 83.3333%; }
 
-  /* line 474, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 474, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-6 {
     left: 83.3333%; }
 
-  /* line 478, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 478, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-6 {
     left: -83.3333%; }
 
-  /* line 482, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 482, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-7 {
     width: 14.2857%; }
 
-  /* line 486, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 486, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-7 {
     margin-left: 14.2857%; }
 
-  /* line 490, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 490, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-7 {
     left: 14.2857%; }
 
-  /* line 494, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 494, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-7 {
     left: -14.2857%; }
 
-  /* line 498, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 498, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-2-7 {
     width: 28.5714%; }
 
-  /* line 502, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 502, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-2-7 {
     margin-left: 28.5714%; }
 
-  /* line 506, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 506, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-2-7 {
     left: 28.5714%; }
 
-  /* line 510, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 510, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-2-7 {
     left: -28.5714%; }
 
-  /* line 514, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 514, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-7 {
     width: 42.8571%; }
 
-  /* line 518, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 518, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-7 {
     margin-left: 42.8571%; }
 
-  /* line 522, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 522, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-7 {
     left: 42.8571%; }
 
-  /* line 526, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 526, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-7 {
     left: -42.8571%; }
 
-  /* line 530, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 530, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-4-7 {
     width: 57.1429%; }
 
-  /* line 534, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 534, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-4-7 {
     margin-left: 57.1429%; }
 
-  /* line 538, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 538, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-4-7 {
     left: 57.1429%; }
 
-  /* line 542, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 542, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-4-7 {
     left: -57.1429%; }
 
-  /* line 546, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 546, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-7 {
     width: 71.4286%; }
 
-  /* line 550, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 550, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-7 {
     margin-left: 71.4286%; }
 
-  /* line 554, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 554, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-7 {
     left: 71.4286%; }
 
-  /* line 558, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 558, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-7 {
     left: -71.4286%; }
 
-  /* line 562, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 562, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-6-7 {
     width: 85.7143%; }
 
-  /* line 566, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 566, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-6-7 {
     margin-left: 85.7143%; }
 
-  /* line 570, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 570, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-6-7 {
     left: 85.7143%; }
 
-  /* line 574, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 574, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-6-7 {
     left: -85.7143%; }
 
-  /* line 578, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 578, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-8 {
     width: 12.5%; }
 
-  /* line 582, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 582, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-8 {
     margin-left: 12.5%; }
 
-  /* line 586, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 586, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-8 {
     left: 12.5%; }
 
-  /* line 590, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 590, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-8 {
     left: -12.5%; }
 
-  /* line 594, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 594, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-8 {
     width: 37.5%; }
 
-  /* line 598, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 598, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-8 {
     margin-left: 37.5%; }
 
-  /* line 602, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 602, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-8 {
     left: 37.5%; }
 
-  /* line 606, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 606, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-8 {
     left: -37.5%; }
 
-  /* line 610, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 610, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-8 {
     width: 62.5%; }
 
-  /* line 614, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 614, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-8 {
     margin-left: 62.5%; }
 
-  /* line 618, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 618, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-8 {
     left: 62.5%; }
 
-  /* line 622, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 622, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-8 {
     left: -62.5%; }
 
-  /* line 626, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 626, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-7-8 {
     width: 87.5%; }
 
-  /* line 630, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 630, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-7-8 {
     margin-left: 87.5%; }
 
-  /* line 634, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 634, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-7-8 {
     left: 87.5%; }
 
-  /* line 638, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 638, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-7-8 {
     left: -87.5%; }
 
-  /* line 642, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 642, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-9 {
     width: 11.1111%; }
 
-  /* line 646, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 646, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-9 {
     margin-left: 11.1111%; }
 
-  /* line 650, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 650, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-9 {
     left: 11.1111%; }
 
-  /* line 654, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 654, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-9 {
     left: -11.1111%; }
 
-  /* line 658, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 658, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-2-9 {
     width: 22.2222%; }
 
-  /* line 662, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 662, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-2-9 {
     margin-left: 22.2222%; }
 
-  /* line 666, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 666, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-2-9 {
     left: 22.2222%; }
 
-  /* line 670, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 670, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-2-9 {
     left: -22.2222%; }
 
-  /* line 674, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 674, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-4-9 {
     width: 44.4444%; }
 
-  /* line 678, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 678, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-4-9 {
     margin-left: 44.4444%; }
 
-  /* line 682, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 682, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-4-9 {
     left: 44.4444%; }
 
-  /* line 686, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 686, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-4-9 {
     left: -44.4444%; }
 
-  /* line 690, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 690, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-9 {
     width: 55.5556%; }
 
-  /* line 694, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 694, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-9 {
     margin-left: 55.5556%; }
 
-  /* line 698, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 698, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-9 {
     left: 55.5556%; }
 
-  /* line 702, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 702, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-9 {
     left: -55.5556%; }
 
-  /* line 706, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 706, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-7-9 {
     width: 77.7778%; }
 
-  /* line 710, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 710, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-7-9 {
     margin-left: 77.7778%; }
 
-  /* line 714, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 714, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-7-9 {
     left: 77.7778%; }
 
-  /* line 718, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 718, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-7-9 {
     left: -77.7778%; }
 
-  /* line 722, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 722, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-8-9 {
     width: 88.8889%; }
 
-  /* line 726, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 726, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-8-9 {
     margin-left: 88.8889%; }
 
-  /* line 730, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 730, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-8-9 {
     left: 88.8889%; }
 
-  /* line 734, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 734, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-8-9 {
     left: -88.8889%; }
 
-  /* line 738, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 738, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-10 {
     width: 10%; }
 
-  /* line 742, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 742, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-10 {
     margin-left: 10%; }
 
-  /* line 746, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 746, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-10 {
     left: 10%; }
 
-  /* line 750, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 750, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-10 {
     left: -10%; }
 
-  /* line 754, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 754, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-10 {
     width: 30%; }
 
-  /* line 758, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 758, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-10 {
     margin-left: 30%; }
 
-  /* line 762, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 762, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-10 {
     left: 30%; }
 
-  /* line 766, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 766, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-10 {
     left: -30%; }
 
-  /* line 770, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 770, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-7-10 {
     width: 70%; }
 
-  /* line 774, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 774, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-7-10 {
     margin-left: 70%; }
 
-  /* line 778, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 778, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-7-10 {
     left: 70%; }
 
-  /* line 782, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 782, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-7-10 {
     left: -70%; }
 
-  /* line 786, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 786, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-9-10 {
     width: 90%; }
 
-  /* line 790, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 790, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-9-10 {
     margin-left: 90%; }
 
-  /* line 794, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 794, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-9-10 {
     left: 90%; }
 
-  /* line 798, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 798, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-9-10 {
     left: -90%; }
 
-  /* line 802, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 802, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-11 {
     width: 9.0909%; }
 
-  /* line 806, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 806, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-11 {
     margin-left: 9.0909%; }
 
-  /* line 810, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 810, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-11 {
     left: 9.0909%; }
 
-  /* line 814, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 814, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-11 {
     left: -9.0909%; }
 
-  /* line 818, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 818, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-2-11 {
     width: 18.1818%; }
 
-  /* line 822, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 822, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-2-11 {
     margin-left: 18.1818%; }
 
-  /* line 826, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 826, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-2-11 {
     left: 18.1818%; }
 
-  /* line 830, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 830, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-2-11 {
     left: -18.1818%; }
 
-  /* line 834, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 834, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-3-11 {
     width: 27.2727%; }
 
-  /* line 838, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 838, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-3-11 {
     margin-left: 27.2727%; }
 
-  /* line 842, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 842, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-3-11 {
     left: 27.2727%; }
 
-  /* line 846, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 846, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-3-11 {
     left: -27.2727%; }
 
-  /* line 850, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 850, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-4-11 {
     width: 36.3636%; }
 
-  /* line 854, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 854, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-4-11 {
     margin-left: 36.3636%; }
 
-  /* line 858, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 858, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-4-11 {
     left: 36.3636%; }
 
-  /* line 862, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 862, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-4-11 {
     left: -36.3636%; }
 
-  /* line 866, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 866, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-11 {
     width: 45.4545%; }
 
-  /* line 870, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 870, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-11 {
     margin-left: 45.4545%; }
 
-  /* line 874, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 874, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-11 {
     left: 45.4545%; }
 
-  /* line 878, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 878, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-11 {
     left: -45.4545%; }
 
-  /* line 882, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 882, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-6-11 {
     width: 54.5455%; }
 
-  /* line 886, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 886, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-6-11 {
     margin-left: 54.5455%; }
 
-  /* line 890, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 890, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-6-11 {
     left: 54.5455%; }
 
-  /* line 894, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 894, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-6-11 {
     left: -54.5455%; }
 
-  /* line 898, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 898, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-7-11 {
     width: 63.6364%; }
 
-  /* line 902, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 902, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-7-11 {
     margin-left: 63.6364%; }
 
-  /* line 906, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 906, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-7-11 {
     left: 63.6364%; }
 
-  /* line 910, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 910, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-7-11 {
     left: -63.6364%; }
 
-  /* line 914, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 914, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-8-11 {
     width: 72.7273%; }
 
-  /* line 918, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 918, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-8-11 {
     margin-left: 72.7273%; }
 
-  /* line 922, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 922, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-8-11 {
     left: 72.7273%; }
 
-  /* line 926, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 926, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-8-11 {
     left: -72.7273%; }
 
-  /* line 930, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 930, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-9-11 {
     width: 81.8182%; }
 
-  /* line 934, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 934, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-9-11 {
     margin-left: 81.8182%; }
 
-  /* line 938, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 938, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-9-11 {
     left: 81.8182%; }
 
-  /* line 942, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 942, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-9-11 {
     left: -81.8182%; }
 
-  /* line 946, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 946, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-10-11 {
     width: 90.9091%; }
 
-  /* line 950, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 950, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-10-11 {
     margin-left: 90.9091%; }
 
-  /* line 954, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 954, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-10-11 {
     left: 90.9091%; }
 
-  /* line 958, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 958, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-10-11 {
     left: -90.9091%; }
 
-  /* line 962, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 962, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-12 {
     width: 8.3333%; }
 
-  /* line 966, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 966, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-1-12 {
     margin-left: 8.3333%; }
 
-  /* line 970, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 970, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-1-12 {
     left: 8.3333%; }
 
-  /* line 974, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 974, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-1-12 {
     left: -8.3333%; }
 
-  /* line 978, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 978, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-5-12 {
     width: 41.6667%; }
 
-  /* line 982, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 982, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-5-12 {
     margin-left: 41.6667%; }
 
-  /* line 986, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 986, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-5-12 {
     left: 41.6667%; }
 
-  /* line 990, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 990, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-5-12 {
     left: -41.6667%; }
 
-  /* line 994, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 994, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-7-12 {
     width: 58.3333%; }
 
-  /* line 998, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 998, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-7-12 {
     margin-left: 58.3333%; }
 
-  /* line 1002, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1002, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-7-12 {
     left: 58.3333%; }
 
-  /* line 1006, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1006, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-7-12 {
     left: -58.3333%; }
 
-  /* line 1010, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1010, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-11-12 {
     width: 91.6667%; }
 
-  /* line 1014, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1014, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-m-11-12 {
     margin-left: 91.6667%; }
 
-  /* line 1018, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1018, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-m-11-12 {
     left: 91.6667%; }
 
-  /* line 1022, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1022, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-m-11-12 {
     left: -91.6667%; }
 
-  /* line 1026, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1026, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-m-1-2, .unit-m-1-3, .unit-m-2-3, .unit-m-1-4, .unit-m-3-4, .unit-m-1-5, .unit-m-2-5, .unit-m-3-5, .unit-m-4-5, .unit-m-1-6, .unit-m-5-6, .unit-m-1-7, .unit-m-2-7, .unit-m-3-7, .unit-m-4-7, .unit-m-5-7, .unit-m-6-7, .unit-m-1-8, .unit-m-3-8, .unit-m-5-8, .unit-m-7-8, .unit-m-1-9, .unit-m-2-9, .unit-m-4-9, .unit-m-5-9, .unit-m-7-9, .unit-m-8-9, .unit-m-1-10, .unit-m-3-10, .unit-m-7-10, .unit-m-9-10, .unit-m-1-11, .unit-m-2-11, .unit-m-3-11, .unit-m-4-11, .unit-m-5-11, .unit-m-6-11, .unit-m-7-11, .unit-m-8-11, .unit-m-9-11, .unit-m-10-11, .unit-m-1-12, .unit-m-5-12, .unit-m-7-12, .unit-m-11-12 {
     display: inline-block;
     visibility: visible; }
  }
 
 @media only screen and (min-width: 60em) {
-  /* line 1035, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1035, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 1040, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1040, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-centered {
     margin: 0 auto; }
 
-  /* line 1044, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1044, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1 {
     display: block;
     visibility: visible;
     width: 100%; }
 
-  /* line 1050, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1050, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-0 {
     margin-left: 0; }
 
-  /* line 1055, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1055, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-0, .unit-pull-l-0 {
     left: 0; }
 
-  /* line 1059, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1059, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-2 {
     width: 50%; }
 
-  /* line 1063, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1063, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-2 {
     margin-left: 50%; }
 
-  /* line 1067, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1067, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-2 {
     left: 50%; }
 
-  /* line 1071, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1071, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-2 {
     left: -50%; }
 
-  /* line 1075, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1075, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-3 {
     width: 33.3333%; }
 
-  /* line 1079, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1079, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-3 {
     margin-left: 33.3333%; }
 
-  /* line 1083, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1083, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-3 {
     left: 33.3333%; }
 
-  /* line 1087, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1087, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-3 {
     left: -33.3333%; }
 
-  /* line 1091, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1091, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-2-3 {
     width: 66.6667%; }
 
-  /* line 1095, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1095, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-2-3 {
     margin-left: 66.6667%; }
 
-  /* line 1099, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1099, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-2-3 {
     left: 66.6667%; }
 
-  /* line 1103, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1103, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-2-3 {
     left: -66.6667%; }
 
-  /* line 1107, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1107, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-4 {
     width: 25%; }
 
-  /* line 1111, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1111, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-4 {
     margin-left: 25%; }
 
-  /* line 1115, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1115, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-4 {
     left: 25%; }
 
-  /* line 1119, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1119, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-4 {
     left: -25%; }
 
-  /* line 1123, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1123, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-4 {
     width: 75%; }
 
-  /* line 1127, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1127, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-4 {
     margin-left: 75%; }
 
-  /* line 1131, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1131, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-4 {
     left: 75%; }
 
-  /* line 1135, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1135, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-4 {
     left: -75%; }
 
-  /* line 1139, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1139, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-5 {
     width: 20%; }
 
-  /* line 1143, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1143, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-5 {
     margin-left: 20%; }
 
-  /* line 1147, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1147, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-5 {
     left: 20%; }
 
-  /* line 1151, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1151, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-5 {
     left: -20%; }
 
-  /* line 1155, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1155, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-2-5 {
     width: 40%; }
 
-  /* line 1159, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1159, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-2-5 {
     margin-left: 40%; }
 
-  /* line 1163, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1163, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-2-5 {
     left: 40%; }
 
-  /* line 1167, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1167, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-2-5 {
     left: -40%; }
 
-  /* line 1171, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1171, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-5 {
     width: 60%; }
 
-  /* line 1175, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1175, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-5 {
     margin-left: 60%; }
 
-  /* line 1179, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1179, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-5 {
     left: 60%; }
 
-  /* line 1183, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1183, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-5 {
     left: -60%; }
 
-  /* line 1187, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1187, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-4-5 {
     width: 80%; }
 
-  /* line 1191, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1191, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-4-5 {
     margin-left: 80%; }
 
-  /* line 1195, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1195, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-4-5 {
     left: 80%; }
 
-  /* line 1199, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1199, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-4-5 {
     left: -80%; }
 
-  /* line 1203, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1203, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-6 {
     width: 16.6667%; }
 
-  /* line 1207, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1207, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-6 {
     margin-left: 16.6667%; }
 
-  /* line 1211, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1211, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-6 {
     left: 16.6667%; }
 
-  /* line 1215, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1215, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-6 {
     left: -16.6667%; }
 
-  /* line 1219, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1219, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-6 {
     width: 83.3333%; }
 
-  /* line 1223, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1223, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-6 {
     margin-left: 83.3333%; }
 
-  /* line 1227, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1227, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-6 {
     left: 83.3333%; }
 
-  /* line 1231, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1231, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-6 {
     left: -83.3333%; }
 
-  /* line 1235, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1235, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-7 {
     width: 14.2857%; }
 
-  /* line 1239, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1239, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-7 {
     margin-left: 14.2857%; }
 
-  /* line 1243, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1243, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-7 {
     left: 14.2857%; }
 
-  /* line 1247, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1247, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-7 {
     left: -14.2857%; }
 
-  /* line 1251, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1251, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-2-7 {
     width: 28.5714%; }
 
-  /* line 1255, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1255, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-2-7 {
     margin-left: 28.5714%; }
 
-  /* line 1259, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1259, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-2-7 {
     left: 28.5714%; }
 
-  /* line 1263, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1263, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-2-7 {
     left: -28.5714%; }
 
-  /* line 1267, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1267, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-7 {
     width: 42.8571%; }
 
-  /* line 1271, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1271, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-7 {
     margin-left: 42.8571%; }
 
-  /* line 1275, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1275, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-7 {
     left: 42.8571%; }
 
-  /* line 1279, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1279, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-7 {
     left: -42.8571%; }
 
-  /* line 1283, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1283, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-4-7 {
     width: 57.1429%; }
 
-  /* line 1287, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1287, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-4-7 {
     margin-left: 57.1429%; }
 
-  /* line 1291, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1291, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-4-7 {
     left: 57.1429%; }
 
-  /* line 1295, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1295, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-4-7 {
     left: -57.1429%; }
 
-  /* line 1299, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1299, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-7 {
     width: 71.4286%; }
 
-  /* line 1303, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1303, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-7 {
     margin-left: 71.4286%; }
 
-  /* line 1307, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1307, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-7 {
     left: 71.4286%; }
 
-  /* line 1311, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1311, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-7 {
     left: -71.4286%; }
 
-  /* line 1315, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1315, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-6-7 {
     width: 85.7143%; }
 
-  /* line 1319, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1319, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-6-7 {
     margin-left: 85.7143%; }
 
-  /* line 1323, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1323, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-6-7 {
     left: 85.7143%; }
 
-  /* line 1327, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1327, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-6-7 {
     left: -85.7143%; }
 
-  /* line 1331, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1331, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-8 {
     width: 12.5%; }
 
-  /* line 1335, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1335, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-8 {
     margin-left: 12.5%; }
 
-  /* line 1339, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1339, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-8 {
     left: 12.5%; }
 
-  /* line 1343, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1343, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-8 {
     left: -12.5%; }
 
-  /* line 1347, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1347, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-8 {
     width: 37.5%; }
 
-  /* line 1351, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1351, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-8 {
     margin-left: 37.5%; }
 
-  /* line 1355, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1355, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-8 {
     left: 37.5%; }
 
-  /* line 1359, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1359, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-8 {
     left: -37.5%; }
 
-  /* line 1363, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1363, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-8 {
     width: 62.5%; }
 
-  /* line 1367, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1367, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-8 {
     margin-left: 62.5%; }
 
-  /* line 1371, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1371, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-8 {
     left: 62.5%; }
 
-  /* line 1375, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1375, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-8 {
     left: -62.5%; }
 
-  /* line 1379, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1379, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-7-8 {
     width: 87.5%; }
 
-  /* line 1383, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1383, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-7-8 {
     margin-left: 87.5%; }
 
-  /* line 1387, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1387, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-7-8 {
     left: 87.5%; }
 
-  /* line 1391, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1391, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-7-8 {
     left: -87.5%; }
 
-  /* line 1395, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1395, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-9 {
     width: 11.1111%; }
 
-  /* line 1399, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1399, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-9 {
     margin-left: 11.1111%; }
 
-  /* line 1403, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1403, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-9 {
     left: 11.1111%; }
 
-  /* line 1407, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1407, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-9 {
     left: -11.1111%; }
 
-  /* line 1411, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1411, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-2-9 {
     width: 22.2222%; }
 
-  /* line 1415, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1415, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-2-9 {
     margin-left: 22.2222%; }
 
-  /* line 1419, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1419, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-2-9 {
     left: 22.2222%; }
 
-  /* line 1423, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1423, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-2-9 {
     left: -22.2222%; }
 
-  /* line 1427, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1427, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-4-9 {
     width: 44.4444%; }
 
-  /* line 1431, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1431, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-4-9 {
     margin-left: 44.4444%; }
 
-  /* line 1435, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1435, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-4-9 {
     left: 44.4444%; }
 
-  /* line 1439, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1439, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-4-9 {
     left: -44.4444%; }
 
-  /* line 1443, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1443, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-9 {
     width: 55.5556%; }
 
-  /* line 1447, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1447, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-9 {
     margin-left: 55.5556%; }
 
-  /* line 1451, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1451, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-9 {
     left: 55.5556%; }
 
-  /* line 1455, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1455, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-9 {
     left: -55.5556%; }
 
-  /* line 1459, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1459, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-7-9 {
     width: 77.7778%; }
 
-  /* line 1463, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1463, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-7-9 {
     margin-left: 77.7778%; }
 
-  /* line 1467, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1467, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-7-9 {
     left: 77.7778%; }
 
-  /* line 1471, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1471, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-7-9 {
     left: -77.7778%; }
 
-  /* line 1475, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1475, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-8-9 {
     width: 88.8889%; }
 
-  /* line 1479, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1479, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-8-9 {
     margin-left: 88.8889%; }
 
-  /* line 1483, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1483, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-8-9 {
     left: 88.8889%; }
 
-  /* line 1487, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1487, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-8-9 {
     left: -88.8889%; }
 
-  /* line 1491, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1491, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-10 {
     width: 10%; }
 
-  /* line 1495, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1495, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-10 {
     margin-left: 10%; }
 
-  /* line 1499, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1499, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-10 {
     left: 10%; }
 
-  /* line 1503, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1503, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-10 {
     left: -10%; }
 
-  /* line 1507, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1507, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-10 {
     width: 30%; }
 
-  /* line 1511, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1511, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-10 {
     margin-left: 30%; }
 
-  /* line 1515, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1515, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-10 {
     left: 30%; }
 
-  /* line 1519, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1519, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-10 {
     left: -30%; }
 
-  /* line 1523, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1523, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-7-10 {
     width: 70%; }
 
-  /* line 1527, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1527, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-7-10 {
     margin-left: 70%; }
 
-  /* line 1531, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1531, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-7-10 {
     left: 70%; }
 
-  /* line 1535, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1535, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-7-10 {
     left: -70%; }
 
-  /* line 1539, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1539, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-9-10 {
     width: 90%; }
 
-  /* line 1543, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1543, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-9-10 {
     margin-left: 90%; }
 
-  /* line 1547, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1547, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-9-10 {
     left: 90%; }
 
-  /* line 1551, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1551, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-9-10 {
     left: -90%; }
 
-  /* line 1555, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1555, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-11 {
     width: 9.0909%; }
 
-  /* line 1559, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1559, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-11 {
     margin-left: 9.0909%; }
 
-  /* line 1563, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1563, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-11 {
     left: 9.0909%; }
 
-  /* line 1567, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1567, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-11 {
     left: -9.0909%; }
 
-  /* line 1571, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1571, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-2-11 {
     width: 18.1818%; }
 
-  /* line 1575, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1575, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-2-11 {
     margin-left: 18.1818%; }
 
-  /* line 1579, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1579, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-2-11 {
     left: 18.1818%; }
 
-  /* line 1583, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1583, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-2-11 {
     left: -18.1818%; }
 
-  /* line 1587, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1587, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-3-11 {
     width: 27.2727%; }
 
-  /* line 1591, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1591, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-3-11 {
     margin-left: 27.2727%; }
 
-  /* line 1595, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1595, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-3-11 {
     left: 27.2727%; }
 
-  /* line 1599, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1599, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-3-11 {
     left: -27.2727%; }
 
-  /* line 1603, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1603, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-4-11 {
     width: 36.3636%; }
 
-  /* line 1607, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1607, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-4-11 {
     margin-left: 36.3636%; }
 
-  /* line 1611, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1611, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-4-11 {
     left: 36.3636%; }
 
-  /* line 1615, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1615, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-4-11 {
     left: -36.3636%; }
 
-  /* line 1619, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1619, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-11 {
     width: 45.4545%; }
 
-  /* line 1623, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1623, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-11 {
     margin-left: 45.4545%; }
 
-  /* line 1627, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1627, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-11 {
     left: 45.4545%; }
 
-  /* line 1631, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1631, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-11 {
     left: -45.4545%; }
 
-  /* line 1635, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1635, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-6-11 {
     width: 54.5455%; }
 
-  /* line 1639, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1639, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-6-11 {
     margin-left: 54.5455%; }
 
-  /* line 1643, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1643, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-6-11 {
     left: 54.5455%; }
 
-  /* line 1647, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1647, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-6-11 {
     left: -54.5455%; }
 
-  /* line 1651, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1651, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-7-11 {
     width: 63.6364%; }
 
-  /* line 1655, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1655, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-7-11 {
     margin-left: 63.6364%; }
 
-  /* line 1659, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1659, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-7-11 {
     left: 63.6364%; }
 
-  /* line 1663, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1663, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-7-11 {
     left: -63.6364%; }
 
-  /* line 1667, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1667, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-8-11 {
     width: 72.7273%; }
 
-  /* line 1671, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1671, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-8-11 {
     margin-left: 72.7273%; }
 
-  /* line 1675, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1675, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-8-11 {
     left: 72.7273%; }
 
-  /* line 1679, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1679, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-8-11 {
     left: -72.7273%; }
 
-  /* line 1683, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1683, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-9-11 {
     width: 81.8182%; }
 
-  /* line 1687, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1687, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-9-11 {
     margin-left: 81.8182%; }
 
-  /* line 1691, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1691, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-9-11 {
     left: 81.8182%; }
 
-  /* line 1695, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1695, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-9-11 {
     left: -81.8182%; }
 
-  /* line 1699, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1699, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-10-11 {
     width: 90.9091%; }
 
-  /* line 1703, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1703, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-10-11 {
     margin-left: 90.9091%; }
 
-  /* line 1707, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1707, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-10-11 {
     left: 90.9091%; }
 
-  /* line 1711, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1711, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-10-11 {
     left: -90.9091%; }
 
-  /* line 1715, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1715, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-12 {
     width: 8.3333%; }
 
-  /* line 1719, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1719, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-1-12 {
     margin-left: 8.3333%; }
 
-  /* line 1723, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1723, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-1-12 {
     left: 8.3333%; }
 
-  /* line 1727, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1727, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-1-12 {
     left: -8.3333%; }
 
-  /* line 1731, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1731, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-5-12 {
     width: 41.6667%; }
 
-  /* line 1735, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1735, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-5-12 {
     margin-left: 41.6667%; }
 
-  /* line 1739, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1739, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-5-12 {
     left: 41.6667%; }
 
-  /* line 1743, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1743, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-5-12 {
     left: -41.6667%; }
 
-  /* line 1747, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1747, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-7-12 {
     width: 58.3333%; }
 
-  /* line 1751, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1751, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-7-12 {
     margin-left: 58.3333%; }
 
-  /* line 1755, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1755, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-7-12 {
     left: 58.3333%; }
 
-  /* line 1759, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1759, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-7-12 {
     left: -58.3333%; }
 
-  /* line 1763, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1763, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-11-12 {
     width: 91.6667%; }
 
-  /* line 1767, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1767, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-offset-l-11-12 {
     margin-left: 91.6667%; }
 
-  /* line 1771, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1771, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-push-l-11-12 {
     left: 91.6667%; }
 
-  /* line 1775, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1775, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-pull-l-11-12 {
     left: -91.6667%; }
 
-  /* line 1779, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/grids */
+  /* line 1779, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/grids */
   .unit-l-1-2, .unit-l-1-3, .unit-l-2-3, .unit-l-1-4, .unit-l-3-4, .unit-l-1-5, .unit-l-2-5, .unit-l-3-5, .unit-l-4-5, .unit-l-1-6, .unit-l-5-6, .unit-l-1-7, .unit-l-2-7, .unit-l-3-7, .unit-l-4-7, .unit-l-5-7, .unit-l-6-7, .unit-l-1-8, .unit-l-3-8, .unit-l-5-8, .unit-l-7-8, .unit-l-1-9, .unit-l-2-9, .unit-l-4-9, .unit-l-5-9, .unit-l-7-9, .unit-l-8-9, .unit-l-1-10, .unit-l-3-10, .unit-l-7-10, .unit-l-9-10, .unit-l-1-11, .unit-l-2-11, .unit-l-3-11, .unit-l-4-11, .unit-l-5-11, .unit-l-6-11, .unit-l-7-11, .unit-l-8-11, .unit-l-9-11, .unit-l-10-11, .unit-l-1-12, .unit-l-5-12, .unit-l-7-12, .unit-l-11-12 {
     display: inline-block;
     visibility: visible; }
  }
 
-/* line 1, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 1, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 html {
   font: normal 100%/1.5 'Open Sans', sans-serif; }
 
 @media only screen and (min-width: 60em) {
-  /* line 7, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+  /* line 7, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
   html {
     font-size: 110%; }
  }
 
 @media only screen and (min-width: 90em) {
-  /* line 15, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+  /* line 15, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
   html {
     font-size: 120%; }
  }
 
 @media only screen and (min-width: 120em) {
-  /* line 23, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+  /* line 23, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
   html {
     font-size: 130%; }
  }
 
-/* line 31, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 31, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .coral {
   color: #EF4442; }
 
-/* line 35, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 35, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .light-teal {
   color: #00A5B9; }
 
-/* line 39, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 39, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .teal {
   color: #0091A5; }
 
-/* line 43, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 43, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .dark-teal {
   color: #007d91; }
 
-/* line 47, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 47, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .grey {
   color: #262626; }
 
-/* line 51, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 51, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .white {
   color: white; }
 
-/* line 60, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 60, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, blockquote, details, hr, fieldset, pre, table {
   margin: 0 0 1.5rem;
   font-family: 'Open-sans', sans-serif; }
 
-/* line 65, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 65, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .yotta {
   font-size: 2.2807rem;
   line-height: 1.3154; }
 
-/* line 70, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 70, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .zetta {
   font-size: 2.0273rem;
   line-height: 1.4798; }
 
-/* line 75, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 75, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h1, .exa {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2067,7 +2067,7 @@ h1, .exa {
   font-size: 1.5em;
   vertical-align: center; }
 
-/* line 85, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 85, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .titles-teal {
   font-family: 'Pacifico', serif;
   font-size: 1.5em;
@@ -2077,7 +2077,7 @@ h1, .exa {
   line-height: 2em;
   display: block; }
 
-/* line 95, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 95, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .titles-white {
   font-family: 'Pacifico', serif;
   font-size: 1.5em;
@@ -2087,12 +2087,12 @@ h1, .exa {
   line-height: 2em;
   display: block; }
 
-/* line 105, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 105, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h2, .peta {
   font-size: 1.6018rem;
   line-height: 1.8729; }
 
-/* line 110, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 110, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h3, .tera {
   color: #fff;
   font-family: 'Open-sans', sans-serif;
@@ -2101,137 +2101,137 @@ h3, .tera {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
   line-height: 1.5; }
 
-/* line 119, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 119, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h4, .giga {
   font-size: 1.2656rem;
   line-height: 1.1852; }
 
-/* line 124, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 124, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h5, .mega {
   font-size: 1.5rem;
   line-height: 1.3333;
   font-family: 'Pacifico', cursive; }
 
-/* line 130, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 130, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 h6, .kilo {
   font-size: 1rem;
   line-height: 1.5; }
 
-/* line 135, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 135, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 p, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875; }
 
-/* line 140, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 140, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .micro {
   font-size: 0.7901rem;
   line-height: 1.8984;
   font-weight: 300; }
 
-/* line 146, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 146, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 a {
   text-decoration: none; }
-  /* line 148, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+  /* line 148, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
   a:hover {
     font-weight: 700;
     transition: all 0.3s ease-in-out; }
 
-/* line 155, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 155, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sub, sup {
   font-size: 75%;
   line-height: 1px;
   position: relative;
   vertical-align: baseline; }
 
-/* line 162, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 162, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sup {
   top: -0.5em; }
 
-/* line 166, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 166, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 sub {
   bottom: -0.25em; }
 
-/* line 170, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 170, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-left {
   text-align: left; }
 
-/* line 174, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 174, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-right {
   text-align: right; }
 
-/* line 178, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 178, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .text-center {
   text-align: center; }
 
-/* line 182, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 182, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .normal {
   font-weight: normal; }
 
-/* line 186, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 186, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .bold {
   font-weight: bold; }
 
-/* line 190, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 190, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .italic {
   font-style: italic; }
 
-/* line 194, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 194, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push {
   margin-bottom: 1.5rem; }
 
-/* line 198, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 198, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-none, .push-0 {
   margin-bottom: 0; }
 
-/* line 202, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 202, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-double, .push-2 {
   margin-bottom: 3rem; }
 
-/* line 206, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 206, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-half, .push-1-2 {
   margin-bottom: 0.75rem; }
 
-/* line 210, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 210, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .push-quarter, .push-1-4 {
   margin-bottom: 0.375rem; }
 
-/* line 214, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 214, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top, .pad-t {
   padding-top: 1.5rem; }
 
-/* line 218, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 218, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom, .pad-b {
   padding-bottom: 1.5rem; }
 
-/* line 222, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 222, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-double, .pad-t-2 {
   padding-top: 3rem; }
 
-/* line 226, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 226, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3rem; }
 
-/* line 230, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 230, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-half, .pad-t-1-2 {
   padding-top: 0.75rem; }
 
-/* line 234, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 234, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-half, .pad-b-1-2 {
   padding-bottom: 0.75rem; }
 
-/* line 238, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 238, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-top-quarter, .pad-t-1-4 {
   padding-top: 0.375rem; }
 
-/* line 242, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 242, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .pad-bottom-quarter, .pad-b-1-4 {
   padding-bottom: 0.375rem; }
 
-/* line 246, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 246, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island {
   padding: 1.5rem; }
 
-/* line 250, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 250, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-max {
   padding: 1.5rem;
   max-width: 40em;
@@ -2239,7 +2239,7 @@ sub {
   position: relative;
   text-align: center; }
 
-/* line 258, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 258, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-max-60 {
   padding: 1.5rem;
   max-width: 60em;
@@ -2247,34 +2247,34 @@ sub {
   position: relative;
   text-align: center; }
 
-/* line 266, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 266, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-double, .island-2 {
   padding: 3rem; }
 
-/* line 270, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 270, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-half, .island-1-2 {
   padding: 0.75rem; }
 
-/* line 274, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 274, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .island-quarter, .island-1-4 {
   padding: 0.375rem; }
 
-/* line 278, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 278, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
-/* line 283, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 283, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-double, .gutter-2 {
   padding-left: 3rem;
   padding-right: 3rem; }
 
-/* line 288, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 288, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-half, .gutter-1-2 {
   padding-left: 0.75rem;
   padding-right: 0.75rem; }
 
-/* line 293, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/typography */
+/* line 293, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/typography */
 .gutter-quarter, .gutter-1-4 {
   padding-left: 0.375rem;
   padding-right: 0.375rem; }
@@ -2299,18 +2299,18 @@ sub {
   width: device-width;
   scale: 1; }
 
-/* line 9, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 9, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%; }
 
-/* line 18, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 18, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 24, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 24, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 html:before, html:after, body:before, body:after {
   content: "";
   background: #00A5B9;
@@ -2318,42 +2318,42 @@ html:before, html:after, body:before, body:after {
   display: block;
   z-index: 100; }
 
-/* line 32, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 32, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 html:before {
   height: 10px;
   left: 0;
   right: 0;
   top: 0; }
 
-/* line 38, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 38, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 html:after {
   width: 10px;
   top: 0;
   right: 0;
   bottom: 0; }
 
-/* line 44, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 44, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body:before {
   height: 10px;
   right: 0;
   bottom: 0;
   left: 0; }
 
-/* line 50, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 50, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body:after {
   width: 10px;
   top: 0;
   bottom: 0;
   left: 0; }
 
-/* line 60, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 60, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0; }
 
 /* NAVIGATION STYLING */
-/* line 67, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 67, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .navigation {
   /* critical sizing and position styles */
   width: 100%;
@@ -2369,7 +2369,7 @@ body {
   text-align: right; }
 
 /* Navigation List items */
-/* line 84, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 84, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-item a {
   /* non-critical appearance styles */
   display: block;
@@ -2379,12 +2379,12 @@ body {
   color: white;
   text-decoration: none; }
 
-/* line 94, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 94, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-item a:hover {
   color: #e06868; }
 
 /* Site Wrapper - Everything that isn't navigation */
-/* line 99, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 99, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .site-wrap {
   /* Critical position and size styles */
   min-height: 100%;
@@ -2397,17 +2397,17 @@ body {
   z-index: 1; }
 
 /* Nav Trigger */
-/* line 112, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 112, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-trigger {
   /* critical styles - hide the checkbox input */
   position: absolute;
   clip: rect(0, 0, 0, 0); }
 
-/* line 118, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 118, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-trigger:focus {
   display: none; }
 
-/* line 122, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 122, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 label[for="nav-trigger"] {
   /* critical positioning styles */
   position: fixed;
@@ -2421,35 +2421,35 @@ label[for="nav-trigger"] {
   background: url("../images/toggle.svg");
   background-size: cover;
   padding: 0.25em; }
-  /* line 138, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 138, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
     background: url("../images/toggle-hover.svg"); }
 
 /* Make the Magic Happen */
-/* line 144, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 144, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-trigger + label, .site-wrap {
   transition: right 0.2s; }
 
-/* line 148, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 148, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-trigger:checked + label {
   right: 215px; }
 
-/* line 152, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 152, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .nav-trigger:checked ~ .site-wrap {
   right: 200px; }
 
-/* line 156, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 156, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body {
   /* Without this, the body has excess horizontal scroll when the menu is open */
   overflow-x: hidden; }
 
-/* line 161, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 161, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 main {
   border-left: solid 10px #00A5B9;
   border-right: solid 10px #00A5B9;
   padding: 1em; }
 
-/* line 170, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 170, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 header {
   padding: 0.5em;
   padding-top: 1.25em;
@@ -2459,7 +2459,7 @@ header {
   border-bottom: 2px solid #0091A5;
   z-index: 3; }
 
-/* line 180, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 180, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .anchor {
   display: block;
   height: 100px;
@@ -2470,16 +2470,16 @@ header {
   margin: 0;
   padding: 0; }
 
-/* line 189, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 189, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .logo {
   width: 2.2em;
   margin-left: 10px; }
 
-/* line 194, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 194, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .fat {
   font-weight: 700; }
 
-/* line 198, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 198, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .btn-donate {
   border: solid 3px #e06868;
   border-radius: 10px;
@@ -2493,16 +2493,16 @@ header {
   margin-right: 4em;
   margin-top: 0.3em;
   padding: 0.4em; }
-  /* line 37, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/mixins */
+  /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
   .btn-donate:hover {
     border: solid 3px #00A5B9;
     color: #00A5B9; }
 
-/* line 210, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 210, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .hidden {
   display: none; }
 
-/* line 214, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 214, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .sign-in-btn {
   border: solid 3px #00A5B9;
   border-radius: 10px;
@@ -2514,12 +2514,12 @@ header {
   float: right;
   font-size: 0.9em;
   padding: 0.25em; }
-  /* line 37, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/mixins */
+  /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
   .sign-in-btn:hover {
     border: solid 3px #e06868;
     color: #e06868; }
 
-/* line 223, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 223, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .sign-in {
   display: block;
   padding-top: 1em;
@@ -2530,11 +2530,11 @@ header {
   text-decoration: none;
   position: relative;
   transition: margin 100ms; }
-  /* line 241, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 241, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .sign-in:hover {
     color: #e06868; }
 
-/* line 246, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 246, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .input {
   font-size: 15px;
   text-transform: uppercase;
@@ -2542,22 +2542,22 @@ header {
   width: 300px;
   padding: 17px;
   border: 3px solid #00B1B6; }
-  /* line 253, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 253, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .input:focus {
     border: 3px solid #EE4340;
     outline: 0; }
 
-/* line 259, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 259, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #forgot-link {
   font-size: 0.9em;
   padding-top: 0.5em;
   color: #00A5B9;
   display: inline-block; }
-  /* line 264, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 264, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   #forgot-link:hover {
     color: #e06868; }
 
-/* line 269, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 269, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #modal {
   position: fixed;
   background-color: #F5F5F6;
@@ -2573,30 +2573,30 @@ header {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
   padding: 1em; }
 
-/* line 286, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 286, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #close {
   float: right;
   color: #00A5B9;
   font-size: 1.5em;
   margin-bottom: 0.5em; }
-  /* line 291, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 291, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   #close:hover {
     color: #e06868; }
 
-/* line 300, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 300, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .home-banner {
   background: url("../images/header-home.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
-/* line 312, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 312, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .header-text {
   padding-top: 5em;
   padding-left: 1.5em;
   margin-bottom: 15em;
   max-width: 13em; }
 
-/* line 319, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 319, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .icon-down-arrow {
   color: #fff;
   font-size: 2em;
@@ -2606,21 +2606,21 @@ header {
   bottom: 0.75em;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.9); }
 
-/* line 329, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 329, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .counter {
   font-size: 3em;
   font-family: 'Pacifico', cursive;
   color: #007d91;
   margin-bottom: 0.25em; }
 
-/* line 337, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 337, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video-container, .teal-bg {
   background-color: #007d91;
   text-align: center;
   margin: 0 auto;
   width: 100%; }
 
-/* line 345, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 345, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -2628,7 +2628,7 @@ header {
   height: 0;
   overflow: hidden; }
 
-/* line 353, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 353, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -2636,13 +2636,13 @@ header {
   width: 100%;
   height: 100%; }
 
-/* line 361, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 361, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .video {
   position: relative;
   text-align: center;
   margin: 0 auto; }
 
-/* line 367, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 367, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -2650,7 +2650,7 @@ header {
   padding-top: 25px;
   height: 0; }
 
-/* line 373, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 373, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -2658,7 +2658,7 @@ header {
   width: 100%;
   height: 100%; }
 
-/* line 383, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 383, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .why {
   text-align: center;
   font-family: 'Pacifico', serif;
@@ -2666,27 +2666,27 @@ header {
   color: #0091A5;
   margin: 0 auto; }
 
-/* line 392, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 392, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .about-banner {
   background: url("../images/slider-3.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
-/* line 401, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 401, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .wrapper-about {
   margin-left: 13.5%;
   margin-right: 13.5%; }
 
-/* line 406, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 406, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #container {
   margin: 0 auto;
   width: 75%; }
 
-/* line 410, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 410, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input {
   display: none; }
 
-/* line 413, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 413, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion label {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2701,56 +2701,56 @@ header {
   z-index: 20;
   font-size: 2.5em; }
 
-/* line 427, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 427, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion label:hover {
   transition: all 0.3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.2);
   font-family: 'Open-sans', sans-serif;
   font-weight: 400; }
 
-/* line 433, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 433, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input:checked + label {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   color: white;
   margin-bottom: 0; }
 
-/* line 439, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 439, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion article {
   background: #fff;
   height: 0px;
   overflow: hidden;
   z-index: 10; }
 
-/* line 445, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 445, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion article p {
   padding: 1em; }
 
-/* line 450, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 450, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 #accordion input:checked ~ article {
   height: auto;
   margin-bottom: 0.125em; }
 
-/* line 457, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 457, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-bhutan {
   background: url('../images/banner-bhutan.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 462, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 462, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-india {
   background: url('../images/banner-india.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 467, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 467, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-nepal {
   background: url('../images/banner-nepal.jpg') no-repeat center center;
   background-size: cover; }
 
-/* line 473, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 473, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .blog-large {
   width: 100%; }
 
-/* line 477, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 477, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .blog-image-large {
   width: 100%;
   position: relative;
@@ -2758,47 +2758,54 @@ header {
   margin: 0 auto;
   margin-bottom: 1em; }
 
-/* line 485, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 485, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .blog-small {
   border: solid 3px #0091A5;
-  width: 100%; }
+  width: 100%;
+  height: 45rem; }
 
-/* line 490, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 491, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .blog-image-small {
   width: 100%;
   position: relative;
   text-align: center;
   margin: 0 auto; }
 
-/* line 499, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 499, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+.blog-story {
+  position: relative;
+  margin: 0 auto; }
+
+/* line 505, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .sidebar {
   background-color: #007d91;
   width: 100%; }
 
-/* line 504, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 510, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .popular {
   margin-top: 2.5em; }
 
-/* line 507, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 513, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .blog-main {
   width: 100%;
   margin-top: 3em; }
 
-/* line 512, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 518, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .kailashi {
   margin-top: 3em; }
 
-/* line 516, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 522, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .empower {
   background-color: #007d91;
-  width: 60%;
+  border-radius: 10px;
+  width: 80%;
   position: relative;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 6em;
   display: block; }
 
-/* line 526, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 533, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .btn-donate-white {
   border: solid 3px white;
   border-radius: 10px;
@@ -2811,26 +2818,26 @@ header {
   margin-right: 0.5em;
   margin-bottom: 1em;
   padding: 0.35em; }
-  /* line 37, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/mixins */
+  /* line 37, /Users/madeleinegagne/Desktop/non-for-profit/scss/mixins */
   .btn-donate-white:hover {
     border: solid 3px #e06868;
     color: #e06868; }
 
-/* line 535, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 542, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .share {
   text-decoration: none;
   display: inline-block;
   position: relative;
   color: white; }
 
-/* line 545, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 552, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .programs {
   font-family: 'Pacifico', serif;
   color: #0091A5;
   margin-bottom: 1em;
   text-align: center; }
 
-/* line 552, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 559, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .accordion-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -2839,7 +2846,7 @@ header {
   text-shadow: none;
   line-height: 1.5; }
 
-/* line 560, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 567, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .numbers {
   font-size: 3em;
   text-shadow: none;
@@ -2849,7 +2856,7 @@ header {
   margin-bottom: 0;
   padding: 0; }
 
-/* line 570, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 577, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .numbers-list {
   margin-bottom: 3em;
   text-align: center;
@@ -2857,38 +2864,38 @@ header {
   font-family: 'Open-sans', sans-serif;
   font-weight: 700; }
 
-/* line 577, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 584, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .about-list ul li {
   line-height: 1.5em; }
 
-/* line 587, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 594, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .hide-text {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
   display: block; }
 
-/* line 594, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 601, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .ease-all {
   transition: all 350ms ease-in-out; }
 
-/* line 604, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 611, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-social {
   float: none;
   margin-top: 2em;
   margin-left: 6em;
   margin-bottom: 2em; }
 
-/* line 611, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 618, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 ul {
   list-style-type: none;
   text-decoration: none; }
 
-/* line 616, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 623, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li {
   float: none; }
 
-/* line 622, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 629, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li a, .social li a:link, .social li a:visited {
   display: inline-block;
   float: left;
@@ -2905,14 +2912,14 @@ ul {
   -o-box-shadow: inset 0px 0px 0px 40px #e06868;
   box-shadow: inset 0px 0px 0px 40px #e06868; }
 
-/* line 651, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 658, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .social li a:hover, .social li a:focus, .social li a:active {
   -ms-box-shadow: inset 0px 0px 0px 3px #e06868;
   -o-box-shadow: inset 0px 0px 0px 3px #e06868;
   box-shadow: inset 0px 0px 0px 3px #e06868;
   color: #e06868; }
 
-/* line 661, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 668, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 footer {
   width: 100%;
   background-color: #262626;
@@ -2921,53 +2928,54 @@ footer {
   font-family: 'Open-sans', sans-serif;
   padding-top: 1em; }
 
-/* line 671, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 678, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 footer p {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   color: #fff;
   font-size: 1em; }
 
-/* line 678, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 685, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   margin-bottom: 2em; }
 
-/* line 685, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 692, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a, .footer-link a:link, .footer-link a:visited {
   text-decoration: none;
   color: #00A5B9;
   border-bottom: 1px #00A5B9 solid; }
 
-/* line 693, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 700, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:focus, .footer-link a:active {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   color: #0091A5;
   border-bottom: 5px #0091A5 solid; }
 
-/* line 700, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 707, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-link a:hover, .footer-link a:active {
   outline: none; }
 
-/* line 706, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 713, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .footer-address, .footer-copywright, .footer-link {
   margin-left: 2em;
   font-size: 0.6em; }
 
 @media only screen and (min-width: 40em) {
-  /* line 716, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 723, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   h1 {
     font-size: 1.8em; }
 
-  /* line 720, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 727, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .btn-donate {
     font-size: 1.2em;
     margin-right: 3em;
-    margin-top: 0; }
+    margin-top: 0;
+    padding: 0.45em; }
 
-  /* line 730, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 738, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .sidebar {
     background-color: #00A5B9;
     width: 30%;
@@ -2976,64 +2984,68 @@ footer p {
     float: right;
     clear: none; }
 
-  /* line 739, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 747, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .blog-main {
     width: 70%;
     float: left;
     clear: none; }
 
-  /* line 745, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 753, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .blog-other {
     width: 100%;
     float: none;
     display: block;
     clear: both; }
 
-  /* line 755, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 760, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  .empower {
+    max-width: 60%; }
+
+  /* line 767, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .footer-social {
     margin-bottom: 0;
     margin-right: 2em;
     margin-top: 0; }
 
-  /* line 761, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 773, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .search-form {
     margin-right: 2em; }
 
 
-  /* line 769, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 781, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .social li {
     float: right; }
 
-  /* line 775, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 787, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .footer-address, .footer-copywright, .footer-link {
     float: left;
     margin-left: 2em; }
  }
 
-/* line 783, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 795, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 body.noscript .slide-menu {
   position: static;
   right: auto; }
 
-/* line 791, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 803, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .contact-banner {
   background: url("../images/header-contact.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
-/* line 801, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 813, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .country {
   width: 100px;
   height: 100px;
   margin-bottom: 2em;
   margin-top: 2em; }
 
-/* line 809, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 821, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .wrapper-contact {
   margin-left: 12%;
   margin-right: 7%; }
 
-/* line 814, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 826, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .contact-h2 {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
@@ -3042,20 +3054,20 @@ body.noscript .slide-menu {
   font-size: 1em;
   line-height: 1.5em; }
 
-/* line 822, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 834, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .contact-page-address {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
   margin-bottom: 0.2em;
   line-height: 1.2em; }
 
-/* line 828, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 840, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .contact-address-info {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   font-size: 0.9em; }
 
-/* line 836, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 848, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-icon {
   width: 150px;
   height: 150px;
@@ -3063,23 +3075,23 @@ body.noscript .slide-menu {
   margin-left: 28%;
   margin-right: 7%; }
 
-/* line 844, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 856, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-banner {
   background: url("../images/header-donate.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
-/* line 854, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 866, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .teal-background {
   background-color: #007d91;
   width: 100%; }
 
-/* line 859, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 871, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-h2 {
   color: #fff;
   margin-left: 0; }
 
-/* line 864, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 876, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-page-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
@@ -3088,23 +3100,23 @@ body.noscript .slide-menu {
   line-height: 1.2em;
   text-align: center; }
 
-/* line 872, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 884, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-page-subtitles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   line-height: 0.5em; }
 
-/* line 877, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 889, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-section {
   position: relative;
   margin: 0 auto; }
 
-/* line 882, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 894, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-form-form {
   max-width: 700px;
   margin: 0 auto; }
 
-/* line 888, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 900, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .donate-form {
   float: none;
   top: 2em;
@@ -3112,13 +3124,13 @@ body.noscript .slide-menu {
   background-size: cover;
   padding: 2em; }
 
-/* line 899, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 911, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 input:focus {
   box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
   z-index: 99999; }
 
-/* line 905, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 917, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .payment-method {
   color: rgba(0, 0, 0, 0.5);
   background-color: #fff;
@@ -3129,19 +3141,19 @@ input:focus {
   height: 40px;
   font-weight: bold; }
 
-/* line 916, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 928, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 legend {
   padding-top: 2em;
   font-size: 18px;
   color: #fff;
   font-weight: bold; }
 
-/* line 923, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 935, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .radio {
   margin-top: -0.75em;
   margin-bottom: 0; }
 
-/* line 928, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 940, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .radio input {
   display: inline-block;
   border: 0;
@@ -3149,14 +3161,14 @@ legend {
   box-shadow: none;
   width: 20px; }
 
-/* line 936, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 948, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 label {
   color: #fff;
   font-size: 18px;
   margin-right: 10px;
   margin-left: 0; }
 
-/* line 943, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 955, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 input {
   font-weight: bold;
   display: block;
@@ -3169,7 +3181,7 @@ input {
   border-radius: 4px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
-/* line 956, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 968, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .form-button {
   border: 1px solid #00A5B9;
   background: #007d91;
@@ -3182,7 +3194,7 @@ input {
   vertical-align: middle;
   width: auto; }
 
-/* line 979, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 991, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .form-button:hover {
   border: 1px solid #e06868;
   background: #ffffff;
@@ -3190,17 +3202,17 @@ input {
   text-shadow: none;
   cursor: pointer; }
 
-/* line 987, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 999, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .form-button:active {
   border: 1px solid #ffffff;
   background: #ffffff; }
 
 @media only screen and (min-width: 40em) {
-  /* line 995, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 1007, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   .donate-icon {
     margin-left: 33%; }
 
-  /* line 999, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 1011, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
   label[for="nav-trigger"] {
     /* critical positioning styles */
     position: fixed;
@@ -3214,12 +3226,32 @@ input {
     background: url("../images/toggle.svg");
     background-size: cover;
     padding: 0.25em; }
-    /* line 1015, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 1027, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
     label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
       background: url("../images/toggle-hover.svg"); }
  }
 
-/* line 1024, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 1036, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
   background-size: cover; }
+
+@media only screen and (min-width: 60em) {
+  /* line 1044, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+  label[for="nav-trigger"] {
+    /* critical positioning styles */
+    position: fixed;
+    right: 17px;
+    top: 29px;
+    z-index: 2;
+    /* non-critical apperance styles */
+    height: 28px;
+    width: 34px;
+    cursor: pointer;
+    background: url("../images/toggle.svg");
+    background-size: cover;
+    padding: 0.25em; }
+    /* line 1060, /Users/madeleinegagne/Desktop/non-for-profit/scss/components/main */
+    label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
+      background: url("../images/toggle-hover.svg"); }
+ }
