@@ -728,6 +728,7 @@ footer p {
   font-size: 1.2em;
   margin-right: 3em;
   margin-top: 0;
+  padding:0.45em;
 }
 
 
@@ -1035,4 +1036,29 @@ label[for="nav-trigger"] {
 .thanks-banner {
   background-image: url("../images/slider-2.jpg");
   background-size: cover;
+}
+
+@media only screen and (min-width: 60em){
+
+
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  right: 17px; top: 29px;
+  z-index: 2;
+
+  /* non-critical apperance styles */
+  height: 28px;
+  width: 34px;
+  cursor: pointer;
+  //background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+  background: url("../images/toggle.svg");
+  background-size: cover;
+  padding: 0.25em;
+
+  &:hover
+  &:active{
+    background: url("../images/toggle-hover.svg");
+  }
+}
 }
