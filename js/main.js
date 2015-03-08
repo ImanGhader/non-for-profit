@@ -6,4 +6,4 @@ $win.on('scroll', function () {
 	var newY = (scrollPos);
 
 
-$('.anchor').localScroll();
+$('.icon-down-arrow').localScroll();
