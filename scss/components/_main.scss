@@ -850,12 +850,21 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   margin-right: 7%;
 }
 
+.donate {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.donate .island {
+  padding-top: 0;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
 .donate-icon {
-  width: 250px;
-  height: 250px;
+  width: 100%;
   margin-bottom: .75em;
-  margin-left: 20%;
-  margin-right: 7%;
+  margin-left: 0;
 }
 
 .donate-banner{
@@ -866,6 +875,10 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   background-size: cover;
 
   display: block;
+}
+
+.support-us {
+  margin-bottom: 2em;
 }
 
 .teal-background {
@@ -1012,10 +1025,6 @@ input {
 
 .donate-form {
   padding: 6em;
-}
-
-.donate-icon {
-  margin-left: 25%;
 }
 
 label[for="nav-trigger"] {

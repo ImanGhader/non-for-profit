@@ -3077,30 +3077,43 @@ body.noscript .slide-menu {
   margin-right: 7%; }
 
 /* line 853, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-.donate-icon {
-  width: 250px;
-  height: 250px;
-  margin-bottom: 0.75em;
-  margin-left: 20%;
-  margin-right: 7%; }
+.donate {
+  margin: 0 auto;
+  max-width: 70rem; }
 
-/* line 861, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 858, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.donate .island {
+  padding-top: 0;
+  max-width: 75%;
+  margin: 0 auto; }
+
+/* line 864, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.donate-icon {
+  width: 100%;
+  margin-bottom: 0.75em;
+  margin-left: 0; }
+
+/* line 870, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-banner {
   background: url("../images/header-donate.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block; }
 
-/* line 871, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 880, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+.support-us {
+  margin-bottom: 2em; }
+
+/* line 884, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .teal-background {
   background-color: #007d91;
   width: 100%; }
 
-/* line 876, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 889, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-h2 {
   color: #fff;
   margin-left: 0; }
 
-/* line 881, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 894, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-page-titles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 400;
@@ -3110,23 +3123,23 @@ body.noscript .slide-menu {
   text-align: center;
   margin-left: 7%; }
 
-/* line 890, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 903, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-page-subtitles {
   font-family: 'Open-sans', sans-serif;
   font-weight: 300;
   line-height: 0.5em; }
 
-/* line 895, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 908, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-section {
   position: relative;
   margin: 0 auto; }
 
-/* line 900, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 913, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-form-form {
   max-width: 700px;
   margin: 0 auto; }
 
-/* line 906, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 919, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .donate-form {
   float: none;
   top: 2em;
@@ -3134,13 +3147,13 @@ body.noscript .slide-menu {
   background-size: cover;
   padding: 2em; }
 
-/* line 917, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 930, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input:focus {
   box-shadow: 0 0 3000px 3000px rgba(0, 165, 185, 0.3);
   position: relative;
   z-index: 99999; }
 
-/* line 923, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 936, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .payment-method {
   color: rgba(0, 0, 0, 0.5);
   background-color: #fff;
@@ -3151,19 +3164,19 @@ input:focus {
   height: 40px;
   font-weight: bold; }
 
-/* line 934, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 947, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 legend {
   padding-top: 2em;
   font-size: 18px;
   color: #fff;
   font-weight: bold; }
 
-/* line 941, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 954, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .radio {
   margin-top: -0.75em;
   margin-bottom: 0; }
 
-/* line 946, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 959, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .radio input {
   display: inline-block;
   border: 0;
@@ -3171,14 +3184,14 @@ legend {
   box-shadow: none;
   width: 20px; }
 
-/* line 954, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 967, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 label {
   color: #fff;
   font-size: 18px;
   margin-right: 10px;
   margin-left: 0; }
 
-/* line 961, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 974, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 input {
   font-weight: bold;
   display: block;
@@ -3191,7 +3204,7 @@ input {
   border-radius: 4px;
   box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.5); }
 
-/* line 974, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 987, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button {
   border: 1px solid #00A5B9;
   background: #007d91;
@@ -3204,7 +3217,7 @@ input {
   vertical-align: middle;
   width: auto; }
 
-/* line 997, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 1010, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:hover {
   border: 1px solid #e06868;
   background: #ffffff;
@@ -3212,21 +3225,17 @@ input {
   text-shadow: none;
   cursor: pointer; }
 
-/* line 1005, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 1018, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .form-button:active {
   border: 1px solid #ffffff;
   background: #ffffff; }
 
 @media only screen and (min-width: 40em) {
-  /* line 1013, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 1026, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   .donate-form {
     padding: 6em; }
 
-  /* line 1017, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
-  .donate-icon {
-    margin-left: 25%; }
-
-  /* line 1021, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 1030, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   label[for="nav-trigger"] {
     /* critical positioning styles */
     position: fixed;
@@ -3240,18 +3249,18 @@ input {
     background: url("../images/toggle.svg");
     background-size: cover;
     padding: 0.25em; }
-    /* line 1037, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 1046, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
     label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
       background: url("../images/toggle-hover.svg"); }
  }
 
-/* line 1046, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+/* line 1055, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
 .thanks-banner {
   background-image: url("../images/thank-you.jpg");
   background-size: cover; }
 
 @media only screen and (min-width: 60em) {
-  /* line 1054, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+  /* line 1063, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
   label[for="nav-trigger"] {
     /* critical positioning styles */
     position: fixed;
@@ -3265,7 +3274,7 @@ input {
     background: url("../images/toggle.svg");
     background-size: cover;
     padding: 0.25em; }
-    /* line 1070, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
+    /* line 1079, /Users/shelleybabij/Documents/Web/semester 5/non-for-profit/scss/components/main */
     label[for="nav-trigger"]:hover label[for="nav-trigger"]:active {
       background: url("../images/toggle-hover.svg"); }
  }
