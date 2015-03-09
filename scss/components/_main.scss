@@ -322,7 +322,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
   text-align: center;
   position: relative;
   display: block;
-  bottom: 0.75em;
+  bottom: 2em;
   text-shadow: 2px 2px rgba(0,0,0,.9);
 }
 
@@ -390,7 +390,7 @@ background: url("../images/header-home.jpg") no-repeat center center fixed;
 }
 
 .about-banner{
-  background: url("../images/slider-3.jpg") no-repeat center center fixed;
+  background: url("../images/header-about.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -736,7 +736,7 @@ footer p {
 ////////  BLOG *PAGE*
 
 .sidebar{
-  background-color: $light-teal;
+  background-color: $dark-teal;
   width: 30%;
   height: 100%;
   min-height: 40em;
@@ -819,7 +819,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 .wrapper-contact {
-  margin-left: 12%;
+  margin-left: 15%;
   margin-right: 7%;
 }
 
@@ -845,12 +845,26 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 //////////////////// Donate Page
 
-.donate-icon {
-  width: 150px;
-  height: 150px;
-  margin-bottom: .75em;
-  margin-left: 28%;
+.wrapper-donate {
+  margin-left: 7%;
   margin-right: 7%;
+}
+
+.donate {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.donate .island {
+  padding-top: 0;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.donate-icon {
+  width: 100%;
+  margin-bottom: .75em;
+  margin-left: 0;
 }
 
 .donate-banner{
@@ -861,6 +875,10 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   background-size: cover;
 
   display: block;
+}
+
+.support-us {
+  margin-bottom: 2em;
 }
 
 .teal-background {
@@ -879,6 +897,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   margin-bottom: .5em;
   line-height: 1.2em;
   text-align: center;
+  margin-left: 7%;
 }
 
 .donate-page-subtitles {
@@ -1004,8 +1023,8 @@ input {
 
 @media only screen and (min-width: 40em){
 
-.donate-icon {
-  margin-left: 33%;
+.donate-form {
+  padding: 6em;
 }
 
 .donate-form {
@@ -1038,7 +1057,7 @@ label[for="nav-trigger"] {
 ////////////thanks page styling
 
 .thanks-banner {
-  background-image: url("../images/slider-2.jpg");
+  background-image: url("../images/thank-you.jpg");
   background-size: cover;
 }
 

@@ -18,10 +18,6 @@ function toggleNav() {
   }
 }
 
-
-
-
-
 $('.sign-in').click(function(){
       $('#modal').css('display','block');
       $('.modal-bg').fadeIn();

@@ -1,0 +1,27 @@
+# humanstxt.org
+
+# TEAM
+Iman Ghader - Project Lead
+Amanda Sparks - Designer
+Marta Traczyk - Designer
+Madeleigne Gagné - Developer
+Shelley Babij - Developer
+
+All photography labeled for reuse as part of creative commons.
+
+---
+
+# THANKS
+
+Prof. Tèffany Tse
+Prof. Thomas J.Bradley
+
+---
+
+# TECHNOLOGY
+
+Sublime Text
+Adobe Photoshop
+Adobe Illustrator
+Github
+Prepros
