@@ -819,7 +819,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 }
 
 .wrapper-contact {
-  margin-left: 12%;
+  margin-left: 15%;
   margin-right: 7%;
 }
 
@@ -845,11 +845,16 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
 
 //////////////////// Donate Page
 
+.wrapper-donate {
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
 .donate-icon {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   margin-bottom: .75em;
-  margin-left: 28%;
+  margin-left: 20%;
   margin-right: 7%;
 }
 
@@ -879,6 +884,7 @@ background: url("../images/header-contact.jpg") no-repeat center center fixed;
   margin-bottom: .5em;
   line-height: 1.2em;
   text-align: center;
+  margin-left: 7%;
 }
 
 .donate-page-subtitles {
@@ -1009,7 +1015,7 @@ input {
 }
 
 .donate-icon {
-  margin-left: 33%;
+  margin-left: 25%;
 }
 
 label[for="nav-trigger"] {
